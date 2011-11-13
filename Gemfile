@@ -1,32 +1,58 @@
-source 'http://rubygems.org'
+source "http://rubygems.org"
 
+# Essentials
+gem 'rake', '~> 0.9.2'
 gem 'rails', '3.1.1'
-
-# Bundle edge Rails instead:
-# gem 'rails',     :git => 'git://github.com/rails/rails.git'
-
+gem 'bcrypt-ruby'
 gem 'mysql2'
+gem 'simple_form'
+gem 'responders'
+gem 'decent_exposure'
+gem 'settingslogic'
+gem 'awesome_print'
+gem 'haml-rails'
+gem 'jquery-rails'
 
+# Test data and seeds
+gem 'factory_girl_rails'
+gem 'faker'
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 3.1.4'
-  gem 'coffee-rails', '~> 3.1.1'
-  gem 'uglifier', '>= 1.0.3'
+  gem 'compass'
+  gem 'sass-rails'
+  gem 'coffee-rails'
+  gem 'uglifier'
 end
 
+group :development do
+  gem 'mongrel', '1.2.0.pre2'
+  gem 'active_reload'
+  # Deployment
+  gem 'vlad', :require => false
+  gem 'vlad-git', :require => false
+  gem 'vlad-extras', :require => false
+end
 
+group :development, :test do
+  gem 'rspec-rails'
+  gem 'cucumber-rails'
+  # Guard
+  gem 'rb-fsevent', :require => false
+  gem 'guard-bundler'
+  gem 'guard-spork'
+  gem 'guard-rspec'
+  gem 'guard-livereload'
+end
 
-# To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
-
-# Use unicorn as the web server
-# gem 'unicorn'
-
-# Deploy with Capistrano
-# gem 'capistrano'
-
-# To use debugger
-# gem 'ruby-debug19', :require => 'ruby-debug'
-
+group :test do
+  gem 'launchy'
+  gem 'email_spec'
+  gem 'database_cleaner'
+  gem 'capybara'
+  gem 'capybara-webkit'
+  gem 'fuubar'
+  gem 'fuubar-cucumber'
+  gem 'spork', '> 0.9.0.rc'
+end
