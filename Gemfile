@@ -12,6 +12,7 @@ gem 'settingslogic'
 gem 'awesome_print'
 gem 'haml-rails'
 gem 'jquery-rails'
+gem 'backbone-on-rails'
 
 # Test data and seeds
 gem 'factory_girl_rails'
