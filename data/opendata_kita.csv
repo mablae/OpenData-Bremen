@@ -1,0 +1,409 @@
+TrägerNr;TrägerName;OT-Nr;EDV-Nr;Einrichtung;Strasse;Telefon;OktPlätze0<3;OktPlätze3<6;OktPlätze>6;Trägerart;BesonderesProfil
+1;KiTa Bremen;511;101;Kita An Smidts Park;An Smidts Park 67;361-7140;10;80;0;öffentlicher Träger;
+1;KiTa Bremen;445;102;Kita Auf den Hunnen;Auf den Hunnen 32;361-9292;26;100;0;öffentlicher Träger;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+1;KiTa Bremen;521;103;Kita Alt-Aumund;An der Aumunder Kirche 21;361-7442;0;80;20;öffentlicher Träger;
+1;KiTa Bremen;314;104;Kita Bismarckstraße (Betty-Gleim-Haus);Bismarckstr. 307;361-3396;5;98;55;öffentlicher Träger;
+1;KiTa Bremen;331;105;Kita Bispinger Straße;Bispinger Str. 16 B;361-3140;10;57;40;öffentlicher Träger;
+1;KiTa Bremen;343;107;Kita Carl-Friedrich-Gauß-Straße;Carl-Friedrich-Gauß-Str. 81;361-3072;0;80;58;öffentlicher Träger;
+1;KiTa Bremen;332;108;Kita Carl-Severing-Straße;Carl-Severing-Str. 62;361-3161;0;120;40;öffentlicher Träger;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+1;KiTa Bremen;213;109;Kita Delmestraße;Delmestr. 153;361-5709;0;40;20;öffentlicher Träger;
+1;KiTa Bremen;535;110;Kita Farge-Rekum;Rekumer Str. 11;361-79030;0;100;20;öffentlicher Träger;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+1;KiTa Bremen;372;111;Kita Graubündener Straße;Graubündener Str. 6;361-3106;0;80;80;öffentlicher Träger;
+1;KiTa Bremen;522;112;Kita Grohn - Haus Windecke -;Tidemanstr. 35;361-7300/7832;0;132;0;öffentlicher Träger;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+1;KiTa Bremen;244;113;Kita Grolland, Standort Grolland;Am Vorfeld 27;361-9928;0;75;40;öffentlicher Träger;
+1;KiTa Bremen;384;114;Kita Arbergen;Ortwisch 73;487483;0;55;0;öffentlicher Träger;
+1;KiTa Bremen;431;115;Kita Haferkamp;Ellmersstr. 22;361-8252;0;60;35;öffentlicher Träger;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+1;KiTa Bremen;442;116;Kita Halmerweg;Halmerweg 7;361-9171;0;104;20;öffentlicher Träger;
+1;KiTa Bremen;524;117;Kita Hammersbeck;Beckstraße 19;662294;0;48;0;öffentlicher Träger;
+1;KiTa Bremen;251;118;Kinder- und Jugendhaus Warturmer Platz;Warturmer Platz 30 A;361-8466;8;20;60;öffentlicher Träger;
+1;KiTa Bremen;335;119;Kita Heinrich-Imbusch-Weg;Heinrich-Imbusch-Weg 2;361-3129;10;140;40;öffentlicher Träger;
+1;KiTa Bremen;211;120;Kita Hohentor;Langemarckstr. 113;361-8247;0;80;20;öffentlicher Träger;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+1;KiTa Bremen;382;121;Kita Hohwisch;Suhrfeldstr. 68;361-3081;0;60;40;öffentlicher Träger;
+1;KiTa Bremen;243;122;Kita An der Höhpost;An der Höhpost 1A;361-9913;0;80;34;öffentlicher Träger;
+1;KiTa Bremen;514;123;Kita Lesum;Am Heidbergstift 16;361-7157;0;60;20;öffentlicher Träger;
+1;KiTa Bremen;525;124;Kita Lobbendorf;Fröbelstraße 65;662744;0;40;20;öffentlicher Träger;
+1;KiTa Bremen;533;125;Kita Ebenroder Strasse;Ebenroder Str. 1;602302;0;60;56;öffentlicher Träger;
+1;KiTa Bremen;513;126;Kita Marßel;Landskronastr. 44;361-7158;0;140;80;öffentlicher Träger;
+1;KiTa Bremen;445;127;Kita Am Nonnenberg;Am Nonnenberg 38;361-9296;0;110;0;öffentlicher Träger;
+1;KiTa Bremen;372;129;Kita Schwedenhaus;Osterholzer Heerstr. 100;361-3069;5;50;20;öffentlicher Träger;
+1;KiTa Bremen;383;130;Kita Osterhop;Osterhop 86;361-3068;0;100;60;öffentlicher Träger;
+1;KiTa Bremen;251;131;Kita Roter Sand;Roter Sand 21 A;361-96818;0;80;40;öffentlicher Träger;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+1;KiTa Bremen;311;132;Kita Im Viertel;Gleimstr. 12;361-3594;0;118;48;öffentlicher Träger;
+1;KiTa Bremen;435;133;Kinderhaus Löwenzahn;Schleswiger Str. 51;361-5699;0;76;0;öffentlicher Träger;
+1;KiTa Bremen;523;134;Kita Schönebeck;Schönebecker Heidberg 6;361-79033;0;58;0;öffentlicher Träger;
+1;KiTa Bremen;381;135;Kita Zeppelinstraße;Zeppelinstr. 54;361-3058;5;90;0;öffentlicher Träger;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+1;KiTa Bremen;515;136;Kita St. Magnus;Richthofenstr. 4;361-79038/39;0;58;30;öffentlicher Träger;
+1;KiTa Bremen;215;137;Kita Thedinghauser Straße;Thedinghauser Str. 74;361-5738;0;140;20;öffentlicher Träger;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+1;KiTa Bremen;434;138;Kita Waller Park;Ackerstr. 1a;361-8497;0;64;36;öffentlicher Träger;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+1;KiTa Bremen;531;139;Kita Wasserturm;Mühlenstr. 62;361-7440/7584;0;116;96;öffentlicher Träger;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+1;KiTa Bremen;522;141;Kita Kinderland;Schönebecker Str. 51;3618541;8;40;0;öffentlicher Träger;
+1;KiTa Bremen;242;142;Kita Amersfoorter Straße;Amersfoorter Str. 7;361-9915;0;120;40;öffentlicher Träger;
+1;KiTa Bremen;375;143;Kita Mülheimer Straße;Mülheimer Str. 2;361-3152;5;110;0;öffentlicher Träger;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+1;KiTa Bremen;533;144;Kita Fillerkamp;Lämmerweg 65;361-7833/7873;5;50;0;öffentlicher Träger;
+1;KiTa Bremen;423;145;Kita Leipziger Straße;Leipziger Str. 19;361-8215;0;100;0;öffentlicher Träger;
+1;KiTa Bremen;343;146;Kita Curiestraße;Curiestraße 36a;361-3352;0;60;80;öffentlicher Träger;
+1;KiTa Bremen;218;147;Kita Kornstraße;Kornstr. 315- 319;361-5758;10;80;0;öffentlicher Träger;
+1;KiTa Bremen;443;148;Kita Schwarzer Weg;Schwarzer Weg 26 b;361-9277;0;100;40;öffentlicher Träger;
+1;KiTa Bremen;233;149;Kita Stichnathstraße;Stichnathstr. 2;361-3506;8;140;0;öffentlicher Träger;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+1;KiTa Bremen;241;150;Kita Grolland, Standort Blanker Hans;Blanker Hans 7;361-9912;0;40;0;öffentlicher Träger;
+1;KiTa Bremen;241;152;Kita Robinsbalje;Robinsbalje 14;361-9914;5;110;0;öffentlicher Träger;
+1;KiTa Bremen;211;153;Kita Neustadtswall;Neustadtswall 80;361-8233;0;40;40;öffentlicher Träger;
+1;KiTa Bremen;373;154;Kinderhafen Tenever;Pfälzer Weg 5;361-3578;10;100;0;öffentlicher Träger;
+1;KiTa Bremen;524;155;Kita Flintacker;Auf dem Flintacker 39;361-7862;5;110;0;öffentlicher Träger;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+1;KiTa Bremen;513;156;Kita Heinrich-Seekamp-Straße;Heinrich-Seekamp-Str. 14;361-7190;0;120;38;öffentlicher Träger;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+1;KiTa Bremen;324;157;Kita Fritz-Gansberg-Straße;Fritz-Gansberg-Str. 20;361-16056;0;80;0;öffentlicher Träger;
+1;KiTa Bremen;373;158;Kita Engadiner Straße;Engadiner Str. 19;361-3279;5;110;0;öffentlicher Träger;
+1;KiTa Bremen;234;159;Kita Wischmannstraße;Wischmannstr. 16;361-3505;0;80;60;öffentlicher Träger;
+1;KiTa Bremen;421;160;Kita Augsburger Straße;Augsburger Str. 134;361-8010;0;80;74;öffentlicher Träger;
+1;KiTa Bremen;525;161;Kita Beckedorfer Straße;Beckedorfer Str. 32;361-7830;10;80;40;öffentlicher Träger;
+1;KiTa Bremen;532;162;Kita Reepschlägerstraße;Reepschläger Str. 123;361-7829;10;80;40;öffentlicher Träger;
+1;KiTa Bremen;384;163;Kita Ortwisch;Ortwisch 17 A;361-3033;0;100;40;öffentlicher Träger;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+1;KiTa Bremen;342;164;Kita Vorstraße;Vorstraße 52;361-59072;0;80;40;öffentlicher Träger;
+1;KiTa Bremen;313;165;Kita Bei den drei Pfählen;Bei den drei Pfählen 37a;361-3617;0;100;60;öffentlicher Träger;
+1;KiTa Bremen;216;166;Kita Hardenbergstraße;Hardenbergstr. 18;361-5759;0;80;0;öffentlicher Träger;
+1;KiTa Bremen;381;167;Kita Saarburger Straße;Saarburger Str. 48;361-3606;0;80;0;öffentlicher Träger;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+1;KiTa Bremen;441;168;Kita Pastorenweg;Pastorenweg 110;361-9359;0;140;40;öffentlicher Träger;
+1;KiTa Bremen;231;170;Kita Engelkestraße;Engelkestr. 2;361-3082;8;60;40;öffentlicher Träger;
+1;KiTa Bremen;522;172;Horthaus Grohn;Friedrich-Klippert-Str. 5;361-7236/7204;0;0;98;öffentlicher Träger;
+1;KiTa Bremen;423;174;Horthaus Dresdener Str.;Dresdener Straße 11;361-8138;0;0;80;öffentlicher Träger;
+1;KiTa Bremen;373;175;Kita Pfälzer Weg (Regenbogenbaus);Koblenzer Str. 12;361-3236;0;100;0;öffentlicher Träger;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+1;KiTa Bremen;251;317;Soz.päd. Spielkreis Roter Sand;Roter Sand 21 A;361-96818;8;0;0;öffentlicher Träger;
+1;KiTa Bremen;445;324;SozPädSPK in der Kita Auf den Hunnen;Auf den Hunnen 32;361-9292;8;0;0;öffentlicher Träger;
+1;KiTa Bremen;445;333;Soz.päd. SPK in der Kita Am Nonnenberg;Am Nonnenberg 38;361-9296;8;0;0;öffentlicher Träger;
+1;KiTa Bremen;442;980;Schule Halmerweg;Halmerweg 71;361-9136;0;0;36;öffentlicher Träger;
+1;KiTa Bremen;243;999;Schule Kirchhuchting;Kirchhuchtinger Landstr. 28;361-9981;0;0;40;öffentlicher Träger;
+2;Ev. Trinitatisgemeinde;373;200;Kita der Ev. Trinitatisgemeinde, Standort Tenever;Auf der Schevemoorer Heide 55;240407106;0;40;0;kirchlicher Träger;
+2;Ev. Abraham Gemeinde;233;201;Kita der Ev. Abraham-Gemeinde;Anna-Stiegler-Str. 126;821499;8;60;0;kirchlicher Träger;
+2;Ev. Auferstehungsgemeinde;382;202;Kita der Ev. Auferstehungsgemeinde;Malerstr. 30;441222;8;60;0;kirchlicher Träger;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+2;Ev. ref. Kirchengemeinde Blumenthal;531;203;Kita Ev. Ref. Gemeinde Blumenthal (Haus Blomendal);Auestr. 9a;601557;0;76;10;kirchlicher Träger;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+2;Ev. Gemeinde St. Georg;243;204;Kita der Ev. Gemeinde St. Georg;Kirchhuchtinger Landstr. 20;583177;0;95;0;kirchlicher Träger;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+2;Ev. Gemeinde Grambke;511;205;Kita der Ev. Gemeinde Grambke;Hinter der Grambker Kirche 18;640323;8;80;0;kirchlicher Träger;
+2;Ev. Gemeinde Gröpelingen-Oslebshausen;442;206;Kita der Ev. Gemeinde Gröpelingen-Oslebshausen (Gröpelingen);Seewenjestr. 92, Danziger Str. 20-22;613333;8;108;36;kirchlicher Träger;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+2;Ev. Gemeinde Hemelingen;383;207;Kita der Ev. Gemeinde Hemelingen;Christernstr. 41a;451901;0;60;40;kirchlicher Träger;
+2;Ev. Gemeinde  Immanuel;432;208;Kita der Ev. Immanuel-Gemeinde;Steffensweg 135a;3808764;0;60;20;kirchlicher Träger;
+2;Ev. Gemeinde Lüssum;533;209;Kita der Ev. Gemeinde Lüssum;Neuenkirchener Weg 29;604477;8;80;20;kirchlicher Träger;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+2;Ev. Gemeinde St. Markus;233;210;Kita der Ev. Gemeinde St. Markus;Arsterdamm 18;8712420;0;80;0;kirchlicher Träger;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+2;Ev. Martin Luther Gemeinde Findorff;423;211;Kita der Ev. Martin-Luther-Gemeinde Findorff;Neukirchstr. 89;352538;0;114;0;kirchlicher Träger;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+2;Ev. Gemeinde Borgfeld;351;212;Kita der Ev. Gemeinde Borgfeld;Krögersweg 14, Bgm.-Kaisen-Allee 134;271618;0;162;38;kirchlicher Träger;
+2;Ev. Dietrich-Bonhoeffer-Gemeinde;241;213;Kita der Ev. Dietrich-Bonhoeffer-Gemeinde;Heinrich-Plett-Allee 27;584511;0;120;25;kirchlicher Träger;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+2;Ev. Gemeinde der Friedenskirche;311;214;Kita der Ev. Gemeinde der Friedenskirche;Lessingstr. 12, Humboldtstr. 175;706886;0;133;0;kirchlicher Träger;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+2;Ev. Gemeinde St. Martini;514;215;Kita der Ev. St.-Martini-Gemeinde (Heisterbusch);Vor dem Heisterbusch 36;631123;0;80;0;kirchlicher Träger;
+2;Vereinigte Evangelische Gemeinde Bremen-Neustadt;211;216;Kita der Ev. St.-Pauli-Gemeinde;Große Johannisstr. 90;505272;0;80;0;kirchlicher Träger;
+2;Ev. St. Petri Domgemeinde;113;217;Kita der Ev. St.-Petri-Domgemeinde;Bleicherstr. 18;324940;0;52;20;kirchlicher Träger;
+2;Ev. Gemeinde Unser Lieben Frauen;321;218;Kita der Ev. Unser-Lieben-Frauen-Gemeinde;Gerhart-Hauptmann-Str. 33;212111;0;90;5;kirchlicher Träger;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+2;Ev. Gemeinde Vegesack;521;219;Kita der Ev. Gemeinde Vegesack;Jaburgstr. 1;66 16 35;0;80;0;kirchlicher Träger;
+2;Ev. Gemeinde Walle;434;220;Kita der Ev. Gemeinde Walle (Kinderhaus Schnecke);Waller Heerstr. 168;385904;0;74;6;kirchlicher Träger;
+2;Ev. Christuskirche Woltmershausen;251;221;Kita der Ev. Christuskirche;Auf dem Bohnenkamp 23, Woltmerhauser Str. 376;540191;0;100;20;kirchlicher Träger;
+2;Vereinigte Evangelische Gemeinde Bremen-Neustadt;214;222;Kita der Ev. Zions-Gemeinde;Gastfeldstr. 53;553844;0;37;20;kirchlicher Träger;
+2;Ev. Gemeinde St. Ansgarii;326;223;Kita der Ev. Gemeinde St. Ansgarii;Hollerallee 4a;345155;0;60;17;kirchlicher Träger;
+2;Ev. Gemeinde St. Johannis Arbergen;384;224;Kita der Ev. Gemeinde St. Johannis;Arberger Heerstr. 77;482474;0;40;0;kirchlicher Träger;
+2;Ev. Trinitatisgemeinde;375;225;Kita der Ev. Trinitatisgemeinde, Standort Blockdiek;Günther-Hafemann-Str. 44;240407106;0;60;0;kirchlicher Träger;
+2;Ev.-luth. Kirchengemeinde Bockhorn;533;226;Kita der Ev. Gemeinde Bockhorn;Himmelskamp 21 - 23;604024;16;60;0;kirchlicher Träger;
+2;Ev. Gemeinde der Dreifaltigkeitskirche;335;227;Kita der Ev. Dreifaltigkeitskirche;Geschwister-Scholl-Str. 136;46021727;0;60;0;kirchlicher Träger;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+2;Ev. Trinitatisgemeinde;372;228;Kita der Ev. Trinitatisgemeinde, Standort Ellener Brok;Graubündener Str. 12;240407406;0;60;0;kirchlicher Träger;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+2;Ev. Epiphanias-Gemeinde;331;229;Kita der Ev. Epiphanias-Gemeinde;Hützelstr. 77;451613;0;60;0;kirchlicher Träger;
+2;Ev. Gemeinde St. Petri-Dom;113;230;Kita der Ev. Gemeinde St.-Petri-Dom (Kinderhaus Sielwall);Sielwall 39;706476;0;32;20;kirchlicher Träger;
+2;Ev. Heiliggeist-Gemeinde;332;231;Kita der Ev. Heiliggeist-Gemeinde;August-Bebel-Allee 276;46021714;0;118;20;kirchlicher Träger;
+2;Ev. Gemeinde St. Martini Lesum;514;232;Kita der Ev. Gemeinde St. Martini (Lesum);Hindenburgstr. 30;633432;0;20;0;kirchlicher Träger;
+2;Ev. Gemeinde St. Magni;515;233;Kita der Ev. luth. Gemeinde St. Magni;Unter den Linden 24;621210;0;35;0;kirchlicher Träger;
+2;Ev. Gemeinde St. Matthäus;243;234;Kita der Ev. Gemeinde St. Matthäus;Hermannsburg 32e;5798933;0;40;0;kirchlicher Träger;
+2;Ev. Gemeinde St. Remberti;324;235;Kita der Ev. Gemeinde St. Remberti;Friedhofstr. 10;219698;0;60;0;kirchlicher Träger;
+2;Ev. Thomas-Gemeinde;234;236;Kita der Ev. Thomas-Gemeinde;Soester Str. 42a;821838;0;59;0;kirchlicher Träger;
+2;Ev. Gemeinde Wilhadi;432;237;Kita der Ev. Wilhadi-Gemeinde;Steffensweg 87/89;394713;0;80;0;kirchlicher Träger;
+2;Ev. Jona Gemeinde;331;238;Kita der Ev. Jona-Gemeinde;Eislebener Str. 58;463211;8;60;0;kirchlicher Träger;
+2;Ev. Gemeinde St. Johannes Arsten-Habenhausen;231;240;Simon-Petrus-Kindergarten;Habenhauser Dorfstr. 38;833144;0;80;0;kirchlicher Träger;
+2;Ev. Gemeinde St. Ansgarii;326;241;"Kita der Ev. Ansgarii-Gemeinde, ""Heinrich-von-Zuetphen-Haus""";Hollerallee 4;3469535;0;60;0;kirchlicher Träger;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+2;Ev. Gemeinde St. Jacobi;216;246;Kita der Ev.Gemeinde St. Jacobi (Kinderhaus Arche);Buntentorsteinweg 149;551687;0;60;0;kirchlicher Träger;
+2;Ev. Gemeinde Horn;342;247;Kita der Ev. Gemeinde Horn;Luisental 27;249253;0;79;0;kirchlicher Träger;
+2;Ev. Kirchengemeinde Arsten-Habenhausen;232;248;Kita der Ev. Gemeinde St. Johannes-Arsten;Korbhauser Weg 2;827770;8;80;0;kirchlicher Träger;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+2;Ev. Gemeinde St. Pauli;211;249;HORTHAUS der  ST. PAULI  GEMEINDE;Große Johannisstr. 75;504854;0;0;60;kirchlicher Träger;
+2;Ev. Gemeinde Oberneuland;361;264;Kita der Ev. Gemeinde Oberneuland;Hohenkampsweg 4;205810;8;60;0;kirchlicher Träger;
+2;Ev. luth. Martin-Luther-Gemeinde Bremen-Blumenthal;531;265;Kita der ev. luth. Gemeinde Blumenthal;Wigmodistr. 33;6096901;0;40;0;kirchlicher Träger;
+2;Ev. Melanchthon Gemeinde;372;266;Kita der Ev. Melanchthon-Gemeinde;Osterholzer Heerstr. 124;4202803;0;40;0;kirchlicher Träger;
+2;Ev. Gemeinde Gröpelingen-Oslebshausen;445;268;Kita der Ev. Gemeinde Gröpelingen-Oslebshausen (Oslebshausen);Ritterhuder Heerstr. 1/3;640220;0;20;0;kirchlicher Träger;
+2;Landesverband Evangelischer Tageseinrichtungen;214;285;Kraft Kids;Kornstr. 31;5578880;16;0;0;kirchlicher Träger;Krippe für die MitarbeiterInnen von Kraft Fooods
+2;Landesverband Evangelischer Tageseinrichtungen;111;286;City Kids;Komturstr. 5;5578880;24;0;0;kirchlicher Träger;Krippe für Kinder von MitarbeiterInnen mehrerer Firmen der Innenstadt
+2;Ev. Versöhnungsgemeinde;381;287;Kita der Ev. Versöhnungs-Gemeinde;Sebaldsbrücker Heerstr. 52;4174506;0;20;0;kirchlicher Träger;
+2;Landesverband Evangelischer Tageseinrichtungen;234;294;"LDW-Kinderkrippe ""Weserstrolche""";Soester Str. 42 c;821838;25;0;0;kirchlicher Träger;"Krippe für Kinder von MitarbeiterInnen des Klinikums ""Links der Weser"""
+2;Landesverband Evangelischer Tageseinrichtungen;434;306;Überseekids;Lloydstraße 4;0421-3038240;20;0;0;kirchlicher Träger;Krippe für Kinder von MitarbeiterInnen mehrerer Firmen der Innenstadt
+2;Ev. Melanchthon Gemeinde;374;309;Krippe der Melanchthon-Gemeinde;Heiligenbergstr. 71;401502;16;0;0;kirchlicher Träger;
+2;Landesverband Ev. Tageseinrichtungen f. Kinder;434;312;Krippengruppe des Ev. Kinderhauses Schnecke;Ritter-Raschen-Str. 39;385904;8;0;0;kirchlicher Träger;
+2;Ev. luth. Paul-Gerhardt-Gemeinde Rönnebeck-Farge;532;316;Kita der Ev. Paul-Gerhardt-Gemeinde;Lichtblickstr. 7/9;600308;0;20;0;kirchlicher Träger;
+2;Ev. ref. Gemeinde Rönnebeck-Farge;534;321;Kita der Ev. Gemeinde Roennebeck-Farge;Farger Str. 19/21;682262;0;20;0;kirchlicher Träger;
+2;Ev. Auferstehungsgemeinde;314;325;Kita der Ev. Auferstehungsgemeinde, Standort  Alt-Hastedt;Benningsenstr. 7b;443796 o. 1634231;0;20;0;kirchlicher Träger;
+2;Landesverband Evangelischer Tageseinrichtungen;437;326;City kids portland;Konsul-Smidt-Straße 8v;;24;0;0;kirchlicher Träger;Krippe für Kinder von MitarbeiterInnen mehrerer Firmen der Überseestadt
+2;Ev. St. Jacobi Gemeinde Seehausen;261;327;Kita der Ev. St. Jacobi Gemeinde;Seehauser Landstr. 166;544792;0;36;0;kirchlicher Träger;
+2;Ev. luth. St. Nikolai Gemeinde Mahndorf;385;328;Kita der Ev. St. Nikolai Gemeinde;Mahndorfer Deich 48;480122;0;40;0;kirchlicher Träger;
+2;Ev. Gemeinde Wilhadi;432;382;Soz.päd. SPK der Wilhadi-Gemeinde;Steffensweg 87;394713;16;0;0;kirchlicher Träger;
+2;Ev. Heiliggeist-Gemeinde;332;398;Soz.päd. SPK der Heilig-Geist-Gemeinde;August-Bebel-Allee 276;462313;8;0;0;kirchlicher Träger;
+2;Landesverband Evangelischer Tageseinrichtungen;111;506;City Kids im Faulenquartier;Töferbohmstr. 8;8358868;32;0;0;kirchlicher Träger;Krippe für Kinder von MitarbeiterInnen mehrerer Firmen der Innenstadt
+2;Landesverband Evangelischer Tageseinrichtungen;372;509;"Krippe ""Sternchen""";Osterholzer Heerstr. 124;0421-2484700;16;0;0;kirchlicher Träger;Krippe für Kinder von MitarbeiterInnen von Daimler Chrysler
+2;Landesverband Evangelischer Tageseinrichtungen;511;565;Krippe Nord Kids;Am Grambker See 41 A;0421-3614729;8;0;0;kirchlicher Träger;Krippe für Kinder von MitarbeiterInnen des Klinikums Bremen Nord
+2;Ev. Gemeinde St. Johannes Sodenmatt;242;567;Kita der Ev. Gemeinde St. Johannes;Am Sodenmatt 34;581818;0;40;0;kirchlicher Träger;
+2;Vereinigte Evangelische Gemeinde Bremen-Neustadt;215;568;Kita der Ev. Matthias-Claudius-Gemeinde;Wilhelm-Raabe-Str. 1 - 3;552622;0;20;0;kirchlicher Träger;
+3;Kath. Gemeindeverband in Bremen;442;250;Kita der kath. Gemeinde St. Nikolaus;Beim Ohlenhof 17a;612556;0;70;0;kirchlicher Träger;
+3;Kath. Gemeindeverband in Bremen;382;252;Kita der kath. Gemeinde St. Elisabeth;Suhrfeldstr. 157;441775;0;40;0;kirchlicher Träger;
+3;Kath. Gemeindeverband in Bremen;111;253;Kita der kath. Gemeinde St. Johann;Kolpingstr. 2;3365878;0;60;0;kirchlicher Träger;
+3;Kath. Gemeindeverband in Bremen;243;254;Kita der kath. Gemeinde St. Pius;Willakedamm 6;583828;16;40;0;kirchlicher Träger;
+3;Kath. Gemeindeverband in Bremen;433;255;Kita der kath. Gemeinde St. Marien;St.-Magnus-Str. 6;394104;16;40;0;kirchlicher Träger;
+3;Kath. Gemeindeverband in Bremen;335;256;Kita der kath. Gemeinde St. Hedwig;Kurt-Schumacher-Allee 62;4673333;0;80;20;kirchlicher Träger;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+3;Kath. Gemeindeverband in Bremen;342;257;Kita der kath. Gemeinde St. Georg;Ledaweg 2a;230259;0;60;0;kirchlicher Träger;
+3;Kath. Gemeindeverband in Bremen;372;260;Kita der kath. Gemeinde St. Thomas;Grenzwehr 61;423164;0;20;0;kirchlicher Träger;
+3;Kath. Gemeindeverband in Bremen;234;261;Kita der kath. Gemeinde St. Hildegard;Alfred-Faust-Str. 45;825714;0;60;0;kirchlicher Träger;
+4;Arbeiterwohlfahrt;331;179;Lückeprojekt im JFH Bispinger Str.;Bispinger Str. 16a;361 3079;0;0;16;freier Träger der Wohlfahrtspflege;
+4;Arbeiterwohlfahrt;243;270;Krippe Neuer Damm;Neuer Damm 30 b;585907;16;0;0;freier Träger der Wohlfahrtspflege;
+4;Arbeiterwohlfahrt;443;271;Na-Kita;Beim Ohlenhof  10;69 14 58 1;11;98;0;freier Träger der Wohlfahrtspflege;
+4;Arbeiterwohlfahrt;213;272;Kita Mainstraße;Mainstr. 46;5959767;22;18;0;freier Träger der Wohlfahrtspflege;
+4;Arbeiterwohlfahrt;371;273;Kita Am Hallacker;Am Hallacker 125;4041340;10;60;0;freier Träger der Wohlfahrtspflege;
+4;Arbeiterwohlfahrt;252;274;Kita  Charlotte Niehaus;Rablinghauser Landstr. 18;540111;8;73;28;freier Träger der Wohlfahrtspflege;
+4;Arbeiterwohlfahrt;241;275;Kita Luxemburger Straße;Mittelshuchtinger Dorfstr. 23 - 25;588655;0;62;10;freier Träger der Wohlfahrtspflege;
+4;Arbeiterwohlfahrt;251;276;Kita Blexer Str;Blexer Str. 78 - 80;529176;0;36;27;freier Träger der Wohlfahrtspflege;
+4;Arbeiterwohlfahrt;515;277;Kita Villa Blumenkamp;Billungstr. 23;621281;10;60;18;freier Träger der Wohlfahrtspflege;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder, Belegplätze für MitarbeiterInnen der Bremer Heimstiftung
+4;Arbeiterwohlfahrt;232;279;"Kinderhaus ""Annemarie Mevissen""";Martin-Buber-Str.3;828204;8;100;20;freier Träger der Wohlfahrtspflege;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+4;Arbeiterwohlfahrt;335;300;KiTa Hanna-Harder-Haus;Berliner Freiheit 9c;4680322;24;0;0;freier Träger der Wohlfahrtspflege;
+4;Arbeiterwohlfahrt;243;377;SozPädSPK in der Krippe;Neuer Damm 30b;585907;8;0;0;freier Träger der Wohlfahrtspflege;
+4;Arbeiterwohlfahrt;251;393;SozPädSPK Kita Blexer Straße;Blexer Str. 78/80;529176;10;0;0;freier Träger der Wohlfahrtspflege;
+4;Arbeiterwohlfahrt;321;564;Kita Singdrossel;H.-H.-Meyer-Allee 80;217518;0;42;0;freier Träger der Wohlfahrtspflege;
+4;Arbeiterwohlfahrt;332;970;Spielen und Lernen i. d. Jugendhütte;Paul-Singer-Str. 158;461809;0;0;18;freier Träger der Wohlfahrtspflege;
+5;Deutsches Rotes Kreuz Bremen;216;176;Lückeprojekt im JFH Buntentor;Geschworenenweg 11a;361 5769;0;0;18;freier Träger der Wohlfahrtspflege;
+5;Deutsches Rotes Kreuz Bremen;215;177;Lückeprojekt im JFH Thedinghauser Str.;Thedinghauser Str. 115b;361 5749;0;0;20;freier Träger der Wohlfahrtspflege;
+5;Deutsches Rotes Kreuz Bremen;252;178;Lückeprojekt im JFH Rablinghausen;Dorfkampsweg 36;361 8050;0;0;15;freier Träger der Wohlfahrtspflege;
+5;Deutsches Rotes Kreuz Bremen;372;295;Kinderhaus Arche des DRK (Arche 1);Osterholzer Landstr. 51;4099483;20;80;0;freier Träger der Wohlfahrtspflege;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder, Belegplätze für MitarbeiterInnen des Klinikums Bremen Ost
+5;Deutsches Rotes Kreuz Bremen;434;299;Kita Steffensweg (Kinderhaus Baumhöhle);Bremerhavener Str. 81/Ecke Steffensweg;385512;0;60;0;freier Träger der Wohlfahrtspflege;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+5;Deutsches Rotes Kreuz Bremen;383;301;Primavera;Osenbrückstr. 16-18;0421-427950;32;0;0;freier Träger der Wohlfahrtspflege;
+5;Deutsches Rotes Kreuz Bremen;218;429;"""BeLeM"" im SZ Huckelriede";Valckenburghstr. 9;383540;10;0;0;freier Träger der Wohlfahrtspflege;Kindergarten für Schülerinnen des Schulzentrums Huckelriede
+5;Deutsches Rotes Kreuz Bremen;383;555;Kinderhaus Freunde (Diedrich-Wilkens-Straße);Diedrich-Wilkens-Str. 26 A;414295;0;60;0;freier Träger der Wohlfahrtspflege;
+5;Deutsches Rotes Kreuz Bremen;383;560;Kinderhaus Kleine Marsch;Kleine Marschstr. 20/22;4356440;10;60;0;freier Träger der Wohlfahrtspflege;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+7;Hans-Wendt-Stiftung;443;297;Kinderhaus Am Kammerberg;Am Kammerberg 12 a;6918036;0;80;0;freier Träger der Wohlfahrtspflege;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+7;Hans-Wendt-Stiftung;434;298;Kinderhaus Purzelbaum;Ackerstr. 1 b;6918007;0;80;0;freier Träger der Wohlfahrtspflege;
+7;Hans-Wendt-Stiftung;351;361;SozPädSPK Am Lehester Deich;Am Lehester Deich 17;2574838;24;0;0;freier Träger der Wohlfahrtspflege;
+7;Hans-Wendt-Stiftung;533;373;SozPädSPK im Kita Fillerkamp;Lämmerweg 65;3617833/7873;8;0;0;freier Träger der Wohlfahrtspflege;
+7;Hans-Wendt-Stiftung;522;374;SozPädSPK in der Kita Grohn;Tidemannstr. 35;361-7832;16;0;0;freier Träger der Wohlfahrtspflege;
+7;Hans-Wendt-Stiftung;423;561;Kinderhaus Fin Kids;Rudolf-Alexander-Schröder-Str. 174;3784418/-19;0;80;0;freier Träger der Wohlfahrtspflege;
+7;Hans-Wendt-Stiftung;351;562;Kinderhaus Am Lehester Deich;Am Lehester Deich 17-21;2433644;0;40;0;freier Träger der Wohlfahrtspflege;
+7;Hans-Wendt-Stiftung;343;569;Kinderhaus Holler Wichtel;Im Hollergrund 63;3225901;0;80;0;freier Träger der Wohlfahrtspflege;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+8;Fraueninitiative Quirl e. V.;232;269;"Kinderhaus ""querbeet""";Carl-Katz-Str. 100;8480858;0;100;0;freier Träger der Wohlfahrtspflege;
+8;Fraueninitiative Quirl e. V.;441;278;"Kinderhaus ""quirli"" (Ortstraße)";Ortstr. 10 A;6160-407;5;50;0;freier Träger der Wohlfahrtspflege;
+8;Fraueninitiative Quirl e. V.;434;291;"Kinderhaus ""quirl""";Elsflether Str. 29;38948870;15;31;0;freier Träger der Wohlfahrtspflege;
+9;Waldorf-Kindergarten Bremen e. V.;325;280;Waldorf-Kindergarten, Standort Heinrich-Heine-Straße;Heinrich-Heine-Str. 60;230306;0;40;0;freier Träger der Wohlfahrtspflege;Waldorf-Pädagogik
+9;Waldorf-Kindergarten Bremen e. V.;325;281;Waldorf-Kindergarten, Standort Freiligrathstraße;Freiligrathstr. 15;232482;0;58;0;freier Träger der Wohlfahrtspflege;Waldorf-Pädagogik
+9;Waldorf-Kindergarten Bremen e. V.;327;282;Waldorf-Kindergarten, Standort Touler Str.;Touler Str. 3;232482;0;20;0;freier Träger der Wohlfahrtspflege;Waldorf-Pädagogik
+9;Waldorf-Kindergarten Bremen e. V.;325;337;Waldorf-Spielkreis;Heinrich-Heine-Str. 60;232482;0;24;0;freier Träger der Wohlfahrtspflege;Waldorf-Pädagogik
+9;Waldorf-Kindergarten Bremen e. V.;372;563;Waldorf-Kindergarten in Osterholz;Graubündener Str. 4;232482;0;20;0;freier Träger der Wohlfahrtspflege;Waldorf-Pädagogik
+10;Verein z. Förderung d. Waldorfpäd.  Br.-Nord e.  V.;522;290;Waldorfkindergarten Bremen-Nord;Grohner Bergstr. 17;629298;0;60;0;freier Träger der Wohlfahrtspflege;Waldorf-Pädagogik
+10;Verein z. Förderung d. Waldorfpäd.  Br.-Nord e.  V.;522;329;Spielkreis im Waldorfkindergarten Bremen Nord;Grohner Bergstr. 17;0421-629298;10;0;0;freier Träger der Wohlfahrtspflege;Waldorf-Pädagogik
+11;Stiftung St. Petri-Waisenhaus von 1692;373;182;Lückeprojekt im JFH Tenever;Koblenzer Str. 5;362 3105;0;0;20;freier Träger der Wohlfahrtspflege;
+11;Stiftung St. Petri-Waisenhaus von 1692;383;184;Lückeprojekt im JFH Stackkamp;Osterhop 90;361-3075;0;0;20;freier Träger der Wohlfahrtspflege;
+11;Stiftung St. Petri-Waisenhaus von 1692;373;245;Horthaus St. Petri;Koblenzer Str. 10;400151;0;0;75;freier Träger der Wohlfahrtspflege;
+11;Stiftung St. Petri Waisenhaus von 1692;383;368;SozPädSPK St. Petri;Hinter den Ellern 1 A;214189;16;0;0;freier Träger der Wohlfahrtspflege;
+11;Stiftung St. Petri-Waisenhaus von 1692;373;992;Schule Pfälzer Weg;Koblenzer Str. 10;361-15287;0;0;40;freier Träger der Wohlfahrtspflege;
+12;Bürgerinitiative Mahndorf e. V.;385;292;"Kindertagesheim ""Däumling""";Mahndorfer Bahnhof 10;4858178;0;55;20;freier Träger der Wohlfahrtspflege;
+13;Spastikerhilfe Bremen e. V.;373;284;Kindertagesstätte Osterholz (Spastikerhilfe);Osterholzer Heerstr. 194;406006;8;80;0;freier Träger der Wohlfahrtspflege;integrativer Kindergarten für behinderte oder von Behinderung bedrohte Kinder
+14;Tobias-Schule Bremen;325;288;Kita der Tobias-Schule;Heinrich-Heine-Str. 60;242137;0;12;0;freier Träger der Wohlfahrtspflege;Kindergarten für behinderte Kinder
+15;Arbeiter-Samariter-Bund;513;363;SozPädSPK Helsingborger Str.;Helsingborger Str. 95;6398696;24;0;0;freier Träger der Wohlfahrtspflege;
+15;Arbeiter-Samariter-Bund;372;981;Schule Ellenerbrokweg;Ellenerbrokweg 28;429117;0;0;30;freier Träger der Wohlfahrtspflege;
+15;Arbeiter-Samariter-Bund;332;1000;Schule an der Paul-Singer-Straße;Paul-Singer-Str. 160;361-3356;0;0;45;freier Träger der Wohlfahrtspflege;
+16;Caritas-Verband Bremen-Nord;522;318;SozPädSPK der Caritas;Grohner Markt 7;66077-0;8;0;0;freier Träger der Wohlfahrtspflege;
+16;Caritas-Verband Bremen-Nord;532;558;Kita St. Nicolai;Hechelstr. 13w und 13x;602327;0;40;17;freier Träger der Wohlfahrtspflege;
+18;Petri Minis gGmbH;374;296;St. Petri Kinderhaus - grasgrün -;Ehlersdamm 1;42795-0;8;40;0;freier Träger der Wohlfahrtspflege;
+18;Petri Minis gGmbH;335;303;Kita VAHRFALLA;August-Bebel-Allee 286;83 54 336;8;0;0;freier Träger der Wohlfahrtspflege;
+18;Petri Minis gGmbH;435;517;Kindergarten MiniMix;Theodorstr. 5;3963914;8;20;0;freier Träger der Wohlfahrtspflege;
+19;Technologiepark e. V.;342;383;Uni-kids;Am Fallturm 9;2226262;27;20;0;freier Träger der Wohlfahrtspflege;Kindergarten für Kinder von MitarbeiterInnen der Universität Bremen
+19;Technologiepark e. V.;342;974;Kita Technologiepark (Das Entdeckerhaus);Robert-Hocke-Str. 21;2440730;32;40;0;freier Träger der Wohlfahrtspflege;Kindergarten für MitarbeiterInnen mehrerer Firmen im Technologiepark
+20;Ev. Hoffnungskirche;433;239;Kita der HOFFNUNGSKIRCHE;Zietenstr. 57-59;3966147;0;45;0;kirchlicher Träger;
+30;Kath. Kirchengemeinde St. Marien Blumenthal;533;258;Kita der kath. Gemeinde St. Marien-Blumenthal;Köhlhorster Str. 73;60 59 14;8;70;0;kirchlicher Träger;
+30;Kath. Gemeinde St. Marien Blumenthal;533;397;Sozpäd. SPK der Kita St. Marien;Köhlhorsterstr. 73;605914;10;0;0;kirchlicher Träger;
+40;Kinderoase e. V.;325;513;Kinderoase;Clausewitzstr. 10;234559;24;0;0;gemeinütziger Verein;
+41;Sozialdienst kath. Frauen Landesverband Bremen e. V.;382;262;Krippe des Sozialdienstes Katholischer Frauen;Suhrfeldstr. 157;4986792;16;0;0;freier Träger der Wohlfahrtspflege;
+66;Aktion 2000 Hilfe für Kinder e. V.;251;505;Kindergruppe der Aktion 2000;Woltmershauser Str. 404;551614;10;0;0;privat-gewerblicher Träger;
+66;Bremer Montessori-Kinderhaus;323;508;Montessori Kindergarten;Hollerallee 65;342419;0;40;0;privat-gewerblicher Träger;
+66;Frau Schmidt;312;510;Kindergarten Schmidt;Herderstr. 63;71681;0;24;0;privat-gewerblicher Träger;
+66;Kinderräume GbR;326;511;Kinderräume GbR;Schwachhauser Ring 159;6201190/91;16;16;0;privat-gewerblicher Träger;
+98;Kinderhaus Dölvesstr. e.V.;382;305;Kinderhaus am Rosenberg;Am Rosenberg 33 A;492588;16;0;0;Elternverein;
+98;Die Grashüpfer e. V.;433;308;Die Grashüpfer;Elisabethstraße 121;0421-4338636;8;0;0;Elternverein;
+98;Arche Kunterbunt e. V.;313;310;Arche Kunterbunt;Am Schwarzen Meer 55 - 57;6993350;32;18;0;Elternverein;Kindergarten für Kinder von MitarbeiterInnen des Klinikums Bremen-Mitte
+98;He Du da e. V.;241;311;Kindergruppe He Du da, Standort Kirchdeich;Am Kirchdeich 4;571717;26;0;0;Elternverein;
+98;Mausekiste e.V.;525;313;mausekiste;Fröbelstr. 65;0421-662744;8;0;0;Elternverein;
+98;Flummi e.V.;211;314;Kindergruppe Flummi;Werderstraße 73;59054864;8;0;0;Elternverein;Kleinkindgruppe für Kinder von StudentInnen der Hochschule Bremen
+98;Borgfelder Butjer e.V.;351;315;Sozpäd. Spielkreis Borgfelder Butjer;Borgfelder Heerstr. 51 b;275755;10;0;0;Elternverein;
+98;Christliche Eltern-Kind-Initiative Kinderinsel Sonnenschein e. V.;233;322;Die Kirchenmäuse;Am Mohrenshof 1;0421-8094015;18;0;0;Elternverein;
+98;Christliche Elterninitiative e. V.;434;323;Kindergruppe Regenbogen, Waller Dorf;Dünenstr. 2-4;371022;8;0;0;Elternverein;
+98;Lustige Flitzmäuse e.V.;421;336;"Kindergarten ""Lustige Flitzmäuse""";Corveystr. 17;0151-52313735;8;0;0;Elternverein;
+98;Elefantenhaus e. V.;327;364;SozPädSPK Elefantenhaus;Uhlandstr. 5;3498767;8;0;0;Elternverein;
+98;Christliche Elterninitiative e. V.;421;389;SozPädSPK der Christlichen Elterninitiative;Hemmstr. 152-156;371022;16;0;0;Elternverein;
+98;Sternschnuppe e. V.;361;392;SozPädSPK Sternschnuppe;Oberneulander Heerstr. 94;252070;8;0;0;Elternverein;
+98;kids at Jacobs e.V.;522;399;kids@jacobs;College Ring 11;2004843;16;20;0;Elternverein;Kindergarten für Kinder von StudentInnen und MitarbeiterInnen der Jacobs University
+98;Schulverein an der Freiligrathstr. e. V.;325;401;Hortbetreuung an der Schule Freiligrathstr.;Freiligrathstr. 11;233017;0;0;40;Elternverein;
+98;Kiga Obervieland e.V.;213;402;Kindergarten Obervieland;Friedrich-Ebert-Str. 111;501745;0;18;0;Elternverein;
+98;Landkindergarten Timmersloh e.V.;351;403;Landkindergarten Timmersloh;Timmersloher Landstr. 22;271463;0;20;0;Elternverein;
+98;Kinderhaus Ostertor e. V.;113;404;Kinderhaus Ostertor;Vasmerstr. 24 ( oben);76863;0;14;0;Elternverein;
+98;Kinderhaus Lesum e.V.;514;405;Kinderhaus Lesum;Peenemünder Str. 25;637413;0;14;0;Elternverein;
+98;Kindergruppe Lange Reihe e. V.;113;406;Kindergruppe Lange Reihe;Kohlhökerstr. 13;324941;8;0;0;Elternverein;
+98;Kinderladen Huchting e. V.;242;407;Kinderladen Huchting;Amersfoorter Str. 8 - 10;589520;0;16;0;Elternverein;
+98;Kindergruppe  Paulskloster Bärenstark e. V.;113;408;Kindergruppe Paulskloster Bärenstark;Beim Paulskloster 11;76334;0;17;0;Elternverein;
+98;Kindergarten Stephanistrolche e. V.;111;409;Kindergruppe Stephanistrolche;Stephanikirchhof 8;302064;0;18;0;Elternverein;
+98;Sternschnuppe e. V.;361;410;Kindergruppe Sternschnuppe;Oberneulander Heerstr. 94;252070;0;34;0;Elternverein;
+98;St. Willehad e. V.;523;411;Kindergruppe St. Willehad;Schafgegend 12;657010;8;12;0;Elternverein;
+98;Kindergruppe Delmestr. e.V.;213;412;Kindergruppe Delmestr.;Neustadtscontrescarpe 88;505167;0;16;0;Elternverein;
+98;Kindergruppe Altstadt e.V.;113;413;Kindergruppe Altstadt;Beim Paulskloster 11;73579;0;18;0;Elternverein;
+98;Elternverein St. Magnus e. V.;523;414;Kindergarten Firlefanz;Schönebecker Kirchweg 33;622545;8;18;0;Elternverein;
+98;Krümel e. V.;325;415;Kindergruppe Krümel;Heinrich-Hertz-Str. 21;237114;0;12;0;Elternverein;
+98;Elternverein Borgfelder Butjer e. V.;351;417;Borgfelder Butjer;Borgfelder Heerstr. 51 b;275755;0;64;8;Elternverein;
+98;Kindergarten Achterdiek e. V.;361;418;Kindergarten Achterdiek;Ehmckstr. 53;253280;0;18;0;Elternverein;
+98;Die Glücksritter e. V.;313;419;"Kindergruppe ""Die Glücksritter""";Am Hulsberg 11;4984937;8;0;0;Elternverein;
+98;Hort und Spiel e. V.;113;420;Hort und Spiel;Vasmerstr. 24;7948505;0;15;0;Elternverein;
+98;Kinder Leben e. V.;441;421;Feuerteufelchen;Gröpelinger Heerstr. 228;6167020;8;0;0;Elternverein;
+98;Krabbelgruppe Blankenburger Straße e. V.;313;422;Kindergruppe Blankenburger Str.;Osterdeich 119;490147;0;12;0;Elternverein;
+98;Bremer Kinder-Centrum e. V.;113;423;Bremer Kindercentrum;Kohlhökerstr. 13;323351;0;16;0;Elternverein;
+98;Elterninitiative Arbergen/Mahndorf e. V.;385;424;Kindergruppe der Elterninitiative Arbergen/Mahndorf;Hermann-Osterloh-Str. 4;487525;0;20;0;Elternverein;
+98;Picobello e. V.;113;425;Kindergarten Picobello;Körnerwall 6;72372;0;13;0;Elternverein;
+98;Kinderladen Pusteblume e. V.;313;426;Kinderladen Pusteblume;Verdener Str. 46;4349451;8;0;0;Elternverein;
+98;Elefantenhaus e. V.;327;427;Elefantenhaus;Uhlandstr. 5;3498767;8;13;0;Elternverein;
+98;Kindergarten Murmel e. V.;351;428;Murmelstiftchen;Daniel-Jacobs-Allee 1;254694;8;0;0;Elternverein;
+98;Kinderhaus Dölvesstraße e. V.;382;430;Kinderhaus Dölvesstraße;Dölvesstr. 8;492588;16;31;0;Elternverein;
+98;Betreuungsinitiative am Alten Postweg e. V.;382;431;Betreuungsinitiative am Alten Postweg;Alter Postweg 302;4988708;0;0;20;Elternverein;
+98;Elterninitiative Momo e. V.;312;432;Kindergarten Momo;Feldstr. 103;74896;8;13;0;Elternverein;
+98;Interkulturelle Schule e. V.;327;433;Deutsch-Französischer-Kindergarten;Lothringer Str. 14 a;237898;18;60;0;Elternverein;bilingualer Kindergarten
+98;Elterninitiative Kindergruppe Quakbüdel e. V.;213;434;Kindergruppe Quakbüdel;Osterstr. 44;5979190;8;0;0;Elternverein;
+98;Uni-Kindertagesheim e. V.;342;435;Uni-Kita;Bibliothekstr. 20;212310;32;0;0;Elternverein;Kindergarten für StudentInnen der Universität
+98;Neustädter Spatzen e. V.;212;436;Kindergarten Neustädter Spatzen;Hohentorsheerstr. 112;594262;0;13;0;Elternverein;
+98;Kleine Trolle e. V.;322;437;Kindergarten Kleine Trolle;Georg-Gröning-Str. 64;326239;0;16;0;Elternverein;
+98;Kinderhaus Malerstr. e. V.;382;438;Kinderhaus Malerstraße;Malerstr. 8;4989499;0;16;0;Elternverein;
+98;Laubfrosch e. V.;323;439;Kleinkindergruppe Laubfrosch;Hollerallee 47;343316;8;0;0;Elternverein;
+98;Kindergruppe Abraxas e. V.;324;440;Kindergruppe Abraxas;Busestraße 69;2449451;10;0;0;Elternverein;
+98;Punch & Judy e. V. Englisch/Deutsche Kindergruppe;323;442;"Kindergarten ""Punch and Judy""";Hermann-Böse-Str. 35;3477825;0;18;0;Elternverein;bilingualer Kindergarten
+98;Schmetterlinge e. V.;213;443;Kindergruppe Schmetterlinge;Aßmannshauser Str. 39;5979936;8;0;0;Elternverein;
+98;Elefanten Kinderkreis Oberneuland e. V.;361;444;Elefanten-Kinderkreis Oberneuland;Oberneulander Landstr. 32;259000;0;95;0;Elternverein;
+98;Kindergarten Murmel e. V.;351;445;Kindergarten Murmel;Am Borgfelder Saatland 1-3;254694;8;72;25;Elternverein;
+98;Verein Riesenzwerge e. V.;312;446;Kindergruppen Riesenzwerge;Herderstr. 28;702946;17;14;0;Elternverein;
+98;Zwölf Uhr Club e. V.;326;447;Zwölf Uhr Club;c/o Schule an der Carl-Schurz-Str. 25;0174/4593609;0;0;20;Elternverein;
+98;Kinderhort Lehrer Lämpel;372;448;Kinderhort Lehrer Lämpel;Osterholzer Heerstr. 160;2488630;0;0;20;Elternverein;
+98;Kindergarten Murmel e. V.;341;449;Kindergarten Murmel - Außenstelle -;Horner Heerstr. 19;249228;24;30;0;Elternverein;
+98;Wurzelkinder e. V.;112;450;Krabbelgruppe Wurzelkinder;Außer der Schleifmühle 6-8;321062;8;0;0;Elternverein;
+98;Zauberlehrlinge e. V.;211;452;Kindergruppe Zauberlehrlinge;Osterstraße 17;1614617;8;0;0;Elternverein;
+98;Zundertüte e. V.;311;453;Kindergruppe Zundertüte;Fehrfeld 7;78505;8;0;0;Elternverein;
+98;Kleine Panik e. V.;421;454;Kindergruppe Kleine Panik;Augsburger Str. 110;37 60 424;8;0;0;Elternverein;
+98;Kinder-Leben e. V.;443;455;"Kindergarten ""Kinder Leben""";Scharmbecker Str. 21 - 23;6167020;24;20;0;Elternverein;
+98;Kieselknirpse e. V.;421;458;Kindergarten Kieselknirpse;Corveystr. 17;4798900;0;13;0;Elternverein;
+98;Kükenstall e. V.;525;459;Kükenstall;Fährer Flur 29;656111;8;14;0;Elternverein;
+98;Kindergruppe Knaddel-Daddel e. V.;313;460;Kindergruppe Knaddel-Daddel;Osterdeich 80;705898;9;0;0;Elternverein;
+98;Kinderladen Stadtteil-Strolche e. V.;311;461;Kinderladen Stadtteilstrolche;Friesenstr. 90;700800;9;0;0;Elternverein;
+98;Kindergruppe Trotz alledem e. V.;113;462;Kindergruppe Trotz Alledem;Kreuzstr. 83;75011;8;0;0;Elternverein;
+98;Kleine Tiger e. V.;251;463;Kindergruppe Kleine Tiger;Woltmershauser Str. 162;547420;8;0;0;Elternverein;
+98;Ich bin ich e. V.;311;464;Kindergarten Ich bin ich;Lübecker Straße 37;9582290;0;13;0;Elternverein;
+98;Kakadu e. V.;324;465;Kindergarten Kakadu;Fritz-Gansberg-Straße 20;216627;8;15;0;Elternverein;
+98;Schmuddelkinder e. V.;113;466;Schmuddelkinder;Sielwall 17;703042;0;17;0;Elternverein;
+98;Montessori Kinderhaus Oberneuland e.V.;361;467;Montessori Kinderhaus Oberneuland;Rockwinkeler Heerstr. 149;2574229;0;20;0;Elternverein;
+98;Schnullerbacke e. V.;342;468;Kindergruppe Schnullerbacke;Vorstraße 52;0151-18790730;8;0;0;Elternverein;
+98;Kindergruppe Trotzköpfe e. V.;216;469;Kindergarten Trotzköpfe;Kornstr. 131;5578970;0;12;0;Elternverein;
+98;Las Mariquitas e. V.;313;470;Las Mariquitas;Osterdeich 71;0174-2983533;8;0;0;Elternverein;bilingualer Kindergarten
+98;Fidibus e. V.;423;471;Kindergarten Fidibus;Meraner Str. 3;353754;0;16;0;Elternverein;
+98;Kefi e. V.;514;472;Kindergarten Kefi;Rotdornallee 64 (Haus 88/89);628832;18;18;0;Elternverein;
+98;Verband binationaler Familien & Partnerschaften;218;473;iaf-Kinderhaus;Valckenburghstr. 1a;875541;9;0;0;Elternverein;
+98;Vegesacker Rasselbande e. V.;525;474;Vegesacker Rasselbande;An der Lobbendorfer Mühle 4;653363;16;15;0;Elternverein;
+98;Kindergruppe Sonnenstrahl e. V.;422;475;Kindergarten Sonnenstrahl;Herbststr. 102 - 104;372198;0;18;0;Elternverein;
+98;Die Wilde 13 e. V.;312;476;Kindergruppe Die wilde 13;Am Dobben 102;73211;8;0;0;Elternverein;
+98;Schneeweißchen und Rosenrot e.V.;323;477;Schneeweißchen und Rosenrot;Slevogtstr. 25;1650444;0;15;0;Elternverein;
+98;Mullewapp e. V.;312;478;Kindergruppe Mullewapp;Roonstr. 47;705245;8;0;0;Elternverein;
+98;He Du da e. V.;243;479;"Kindergarten ""He, Du da""";Obervielander Str. 39;571717;0;20;0;Elternverein;
+98;Bullerbü e. V.;213;480;Kindergruppe Bullerbü;Mainstraße 64-66;503065;8;0;0;Elternverein;
+98;Kinderladen Sterntaler e. V.;312;481;Kindergruppe Sterntaler;Bismarckstr. 106;0174-3603168;8;0;0;Elternverein;
+98;Stadtwichtel e. V.;321;482;StadtWichtel;Parkallee 223;216369;18;18;0;Elternverein;
+98;Kiga Altmannstr. e. V.;322;483;Kindergarten Altmannstraße;Altmannstr. 36;3469360;0;31;0;Elternverein;
+98;Kinderhaus Kodakistan e. V.;216;484;Kinderhaus Kodakistan;Beginenhof 4;551614 / 530285;8;30;0;Elternverein;
+98;Stadtwichtel e. V.;321;485;Stadtwichtel (Waldkindergarten);Parkallee 223;216369;0;18;0;Elternverein;
+98;Socke e. V.;213;487;Kindergruppe Socke;Erlenstr. 76;5289459;8;0;0;Elternverein;Kindergarten für StudentInnen der Hochschule Bremen
+98;Kinderladen Bullerkiste e. V.;113;488;Kindergruppe Bullerkiste;Albrechtstr. 17;703757;10;0;0;Elternverein;
+98;Milchzahn e. V.;213;489;Kindergruppe Milchzahn;Lahnstr. 37;594273;8;0;0;Elternverein;
+98;Kindergruppe Hagenunu e. V.;324;490;Kindergruppe Hagenunu;c/o Landhaus Horn, Schwachhauser Heerstr. 264;442768;9;0;0;Elternverein;
+98;Die Stöpsel e. V.;323;491;Die Stöpsel;Am Barkhof 1;344104;8;0;0;Elternverein;
+98;Kindergruppe Sternchen e. V.;322;492;"Kindergarten ""Sternchen""";Marcusallee 31;341217;0;15;0;Elternverein;
+98;Kindergruppe Findorffer Zwerge e. V.;423;493;Findorffer Zwerge;Neukirchstr. 26;358689;0;13;0;Elternverein;
+98;Die Fische e. V.;323;494;"Kindergruppe ""Die Fische""";Franz-Liszt-Str. 11;3469465;9;0;0;Elternverein;
+98;Rackzack Elterninitiative Neustadt e. V.;213;495;"Kindergruppe ""Rackzack""";Erlenstr. 62;501388;9;0;0;Elternverein;
+98;Die Piepmatzen e. V.;218;496;Die Piepmatzen;Kirchweg 122;9608070;17;0;0;Elternverein;
+98;Christliche Elterninitiative e. V.;421;497;Kindergarten Regenbogen (CEI);Hemmstraße 152-156;371346;8;36;0;Elternverein;
+98;Balu e. V.;531;498;Kindergruppe Balu;Kaffeestraße 12;6900399;8;10;0;Elternverein;
+98;Villa Kunterbunt e. V.;211;499;Kindergruppe Villa Kunterbunt;Am Neuen Markt 10-11;505533;8;0;0;Elternverein;
+98;Kindergruppe Bärenstark;325;503;Kindergruppe Bärenstark;Buchenstr. 9;214655;12;0;0;Elternverein;
+98;Christliche Eltern-Kind-Intiative Sonnenschein e. V.;211;952;Kinderinsel Sonnenschein;Große Johannisstr. 137-139;5979747;0;36;0;Elternverein;
+98;Kindergruppe Kleine Vampire e. V.;242;953;Kleine Vampire;Kirchhuchtinger Landstr. 210;571811;8;0;0;Elternverein;
+98;Krümelkiste e. V.;514;954;Kindergarten Zwergenland;Am Heidbergstift 4;6368421;18;20;0;Elternverein;
+98;Die Kurzen e. V.;113;955;Die Kurzen;Kohlhökerstr. 13;323644;8;0;0;Elternverein;
+98;Goethchen e.V.;311;956;Kindergruppe Goethchen;Goethestr. 25;71863;8;0;0;Elternverein;
+98;Montessori Kinderhaus im Viertel e. V.;311;957;Montessori-Kinderhaus im Viertel;Auf der Kuhlen 1c;3399182;8;28;0;Elternverein;Montessori-Pädagogik
+98;Elternverein Stolberger Str.;313;958;Kindergruppe Stolberger Straße;Stolberger Str. 5;4986258;8;0;0;Elternverein;
+98;Elternverein Haus Huckebein;381;959;Kindergarten Haus Huckebein;Witwe-Bolte-Weg 12;4799111;0;14;0;Elternverein;
+98;Montessori-Hort a. d. Bgm.-Smidt-Schule;112;960;Montessori-Hort an der Bgm.-Smidt-Schule;Contrescarpe 26;361-59549;0;0;20;Elternverein;
+98;Kleine Welt e. V.;423;962;Kindergarten Kleine Welt;Göttinger Str. 40;3760240;0;20;0;Elternverein;
+98;bambinicentral e. V.;211;963;Kleinkindgruppe bambinicentral;Grünenstr. 22;9886633;9;0;0;Elternverein;
+98;The Toddlers e. V.;323;965;The Toddlers;Hermann-Böse-Str. 35;0172-4136492;8;0;0;Elternverein;
+98;Farmkindergarten Obervieland e. V.;231;966;Farmkindergarten Obervieland;Ohserstr. 40a;2065006;0;17;0;Elternverein;
+98;Hort und Spiel e. V.;113;987;Offene Hortarbeit Hort und Spiel;Vasmerstr. 24;75394;0;0;20;Elternverein;
+99;SoFa e.V.;431;185;Lückeprojekt im JFH Haferkamp;Ellmersstr. 22;361-8019;0;0;16;gemeinnütziger Verein;
+99;Jüdische Gemeinde im Lande Bremen;327;242;"Kindergarten ""Martha Goldberg""";Schwachhauser Heerstr. 117;4984764;0;31;17;kirchlicher Träger;
+99;Haus der Naturfreunde;435;263;Kindergarten Spielhaus Ratzeburger Straße;Ratzeburger Straße 1;384766;5;10;10;gemeinnütziger Verein;
+99;Kindertagesstätte Hünefeldstraße e.V.;217;283;Kita Hünefeldstraße;Hünefeldstraße 1-5;530581;0;50;0;gemeinnütziger Verein;Kindergarten für MitarbeiterInnen mehrerer Firmen
+99;Mütterzentrum Huchting;242;289;Die Stiftchen;Tegeler Plate 23;5796233;8;0;0;gemeinnütziger Verein;
+99;Mütterzentrum Vahr e.V.;335;319;Kleinkindgruppe im Mütterzentrum Vahr (Vahrinis);Kurt-Schumacher-Allee 65;4673859;8;0;0;gemeinnütziger Verein;
+99;Mütterzentrum Osterholz - Tenever;373;320;Kinderkrippe Neuwieder Str.;Neuwiederstr. 9;4098894;8;0;0;gemeinnütziger Verein;
+99;Kindergarten an der kath. Kirche St. Ursula e.V.;324;259;Kindergarten an der Katholischen Kirche St. Ursula;Schwachhauser Heerstr. 166;2442384;0;20;0;gemeinnütziger Verein;
+99;Mütterzentrum Huchting e. V.;242;360;SozPädSPK Mütterzentrum Huchting;Amersfoorter Str. 8;589200;30;0;0;gemeinnütziger Verein;
+99;Gemeinschaftszentrum Studio Grambke e. V.;511;362;SozPädSPK Studiohaus;Alwin-Lonke-Str.75;641515;12;0;0;gemeinnütziger Verein;
+99;Lebenshilfe Bremen e. V.;435;365;SozPädSPK;Auguststraße  40/42;3989345;32;0;0;gemeinnütziger Verein;
+99;Freundeskreis Haus der Familie e. V.;311;366;SozPädSPK VIF (Vifikus);Prangenstr. 21;700070;16;0;0;gemeinnütziger Verein;
+99;Lebenshilfe Bremen e. V.;435;367;SozPädSPK Auguststraße;Gröpelinger Heerstr. 207;6161984;30;0;0;gemeinnütziger Verein;
+99;Bürgerhaus Obervieland;233;369;SozPädSPK GZO;Alfred-Faust-Str. 4;824030;20;0;0;gemeinnütziger Verein;
+99;Haus der Familie Lüssum;533;371;SozPädSPK im Spielhaus Familienzentrum Bockhorn;Pürschweg 9;608111/601488;10;0;0;gemeinnütziger Verein;
+99;Verein Haus der Zukunft e. V.;533;372;SozPädSPK des Vereins Haus der Zukunft (Küken);Lüssumer Heide 8;600098;16;0;0;gemeinnütziger Verein;
+99;Bürgerzentrum Neue Vahr e. V.;335;376;SozPädSPK des Bürgerzentrum Neue Vahr;Berliner Freiheit 10;4673588;16;0;0;gemeinnütziger Verein;
+99;Freundeskreis Haus der Familie e. V.;373;378;SozPädSPK in der Pirmasenser Straße;Pirmasenser Str. 24/26;426663;8;0;0;gemeinnütziger Verein;
+99;Stadtteilschule Bremen-Nord e. V.;523;386;"SozPädSPK ""Schönebecker Schulzwerge""";Herbartstr. 25;6589179;16;0;0;gemeinnütziger Verein;
+99;Nachbarschaft Neuenkirchener Weg e. V.;533;388;SozPädSPK im Spielhaus Lüssumer Heide;Lüssumer Heide 50;605564;8;0;0;gemeinnütziger Verein;
+99;Mütterzentrum Osterholz-Tenever e. V.;373;390;SozPädSPK im Mütterzentrum Osterholz-Tenever;Neuwieder Str. 17;4098894;8;0;0;gemeinnütziger Verein;
+99;Freundeskreis Haus der Familie e. V.;233;394;"SozPäd SPK des Hauses der Familie Obervieland ""Tigerenten""";Eichelkämpe 7-11;361-3355;9;0;0;gemeinnütziger Verein;
+99;Freundeskreis Haus der Familie e. V.;241;396;Sozpäd. SPK Teddybär;Robinsbalje 14;3619914;8;0;0;gemeinnütziger Verein;
+99;Frauen in Findorff e. V.;422;441;"Kindergarten ""Frauen in Findorff"" (Lohmannstr.)";Lohmannstr. 96;3761183;8;15;0;gemeinnütziger Verein;
+99;Frauen in Findorff e. V.;422;451;"Kindergarten ""Frauen in Findorff""";Herbststr. 92;3761183;8;12;0;gemeinnütziger Verein;
+99;Freundeskreis Haus der Familie e. V.;373;456;"Kindergarten ""Wilde 13""";Neuwieder Str. 23;4099727;0;13;0;gemeinnütziger Verein;
+99;Mütterzentrum Huchting;242;936;"Kindergarten ""Grashüpfer""";Amersfoorter Str. 8;589200;0;15;0;gemeinnütziger Verein;
+99;Frauen in Findorff e. V.;422;964;Huskies-Hort (fif e.V.);Herbststr. 99;3795483;0;0;20;gemeinnütziger Verein;
+99;Stadtteilschule Bremen-Nord e. V.;514;969;Offene Hortarbeit an der Grundschule Am Mönchshof;Hindenburgstr. 33 a;361-79384;0;0;21;gemeinnütziger Verein;
+99;Kinder- und Jugendhilfe Bremen e. V.(AfJ);442;971;Offene Hortarbeit Schule Fischerhuder Straße;Fischerhuder Str. 20;3379488;0;0;15;gemeinnütziger Verein;
+99;Bürgerhaus Oslebshausen e. V.;445;972;Spielhaus Bexhöveder Straße Projekt Offene Hortarbeit;Am Nonnenberg 40;645122;0;0;18;gemeinnütziger Verein;
+99;Sozialwerk der Freien Christengemeinde Bremen e. V.;211;973;Kinder - und Jugendzentrum Arche;Große Johannisstr. 137;545480;0;0;20;gemeinnütziger Verein;
+99;Sportgarten e. V.;313;975;Projekt offene Hortarbeit im Bürgerhaus Weserterrassen;Osterdeich 70 B;0421-75808;0;0;20;gemeinnütziger Verein;
+99;Stadtteilfarm Huchting e. V.;242;976;Stadtteilfarm Huchting;Am Sodenmatt 15;588421;0;0;20;gemeinnütziger Verein;
+99;Stadtteilschule Bremen-Nord e. V.;532;978;Offene Hortarbeit an der Grundschule Rönnebeck;Helgenstr. 10;6207016;0;0;20;gemeinnütziger Verein;
+99;Freundeskreis Haus der Familie e. V.;313;979;Spielhaus;Bei den Drei Pfählen 37a;13816/13831;0;0;15;gemeinnütziger Verein;
+99;Stadtteilschule Bremen-Nord e. V.;521;982;Offene Hortarbeit an der Grundschule Alt Aumund;Am Ritterkamp 10;361-14626;0;0;20;gemeinnütziger Verein;
+99;Mütterzentrum Huchting e. V.;242;983;Hortarbeit im Mütterzentrum Huchting;Amersfoorter Str. 8;589200;0;0;25;gemeinnütziger Verein;
+99;Frauen in Findorff e. V.;421;984;Offene Hortarbeit (fif e.V.);Regensburger Str. 63;1619404;0;0;20;gemeinnütziger Verein;
+99;Stadtteilschule Bremen-Nord e. V.;521;985;Offene Hortarbeit im Horthaus Alt-Aumund;An der Aumunder Kirche 6;6207016;0;0;15;gemeinnütziger Verein;
+99;Stadtteilschule Bremen-Nord e. V.;524;986;Offene Hortarbeit an der Grundschule Hammersbeck;Fährer Str. 2-4;650079;0;0;20;gemeinnütziger Verein;
+99;Stadtteilschule Bremen-Nord e. V.;523;998;Offene Hortarbeit an der Grundschule Schönebeck;Herbartstr. 25;6589179;0;0;40;gemeinnütziger Verein;
+99;Senator für Bildung;341;1009;Kindergarten der Schule Marcusallee;Marcusallee 31;361-14376/75/74;0;16;0;öffentlicher Träger;Kindergarten für hörbehinderte Kinder
+98;Villa Kinderstern e.V.;322;486;Villa Kinderstern e.V.;Wachmannstraße 2;;8;0;0;Elternverein;
+98;Glückskinder e.V.;433;400;Glückskinder e.V.;Karl-Peters-Straße 80;0179-1472701;8;0;0;Elternverein;
+99;Freundeskreis Haus der Familie e.V.;332;335;Soz.päd. Spielkreis Sonnenblumenkinder;August-Bebel-Allee 283;4915092;6;0;0;gemeinnütziger Verein;
+1;KiTa Bremen;233;338;Soz.päd. Spielkreis der Kita Stichnathstr.;Max-Jahn-Weg 13 a;;10;0;0;öffentlicher Träger;
+99;Freundeskreis Haus der Familie e. V.;383;339;Soz.päd.Spielkreis im Haus d. Familie Hemelingen (Wühlmäuse III);Hinter den Ellern 1 a;4915092;8;0;0;gemeinnütziger Verein;
+18;Petri Minis gGmbH;383;341;Soz.Päd. Spielkreis im Bürgerhaus Hemelingen;Godehardstr. 4;42795-0/16;8;0;0;freier Träger der Wohlfahrtspflege;
+98;Christliche Eltern-Kind-Initiative Kinderinsel Sonnenschein e. V.;233;342;Soz.Päd. Spielkreis bei den Kirchenmäusen;Am Mohrenshof 1;5979747;16;0;0;Elternverein;
+18;Petri Minis gGmbH;442;351;Kindergarten Sonnenschein;Halmer Weg 49 a;69664990;8;0;0;freier Träger der Wohlfahrtspflege;
+18;Petri Minis gGmbH;442;352;Soz.päd.Spielkreis Sonnenschein;Halmer Weg 49 a;;8;0;0;freier Träger der Wohlfahrtspflege;
+98;Elternverein Kindergarten Murmel;341;353;Soz.päd. Spielkreis Kindergarten Horner Murmel;Horner Heerstr. 19;;8;0;0;Elternverein;
+2;St. Michaelis Gemeinde;112;395;Kita der Gde. St. Michaelis;Doventorsteinweg 51;;10;20;0;kirchlicher Träger;
+98;Verein Riesenzwerge e. V.;113;416;Kleinkindgruppe Riesenzwerge;Hoppenbank 2-3;702946;8;0;0;Elternverein;
+11;Stiftung St. Petri-Waisenhaus von 1692;373;504;Teeny-Gruppe auf dem Kinderbauernhof;Am Osterholzer Deich 14;9596122;0;0;12;freier Träger der Wohlfahrtspflege;
+2;Ev. Gemeinde Neue Vahr;335;512;Krippe der Ev. Gemeinde Neue Vahr (Christus-Gemeinde);Adam-Stegerwald-Straße 42;46021718;18;0;0;kirchlicher Träger;
+4;Arbeiterwohlfahrt;434;550;Kita Anna-Stiegler-Haus;Waller Str. 6;790251;16;0;0;freier Träger der Wohlfahrtspflege;
+4;Arbeiterwohlfahrt;374;551;Kita Weserpark;Hans-Bredow-Str. 9;790245;16;0;0;freier Träger der Wohlfahrtspflege;
+5;Deutsches Rotes Kreuz Bremen;372;554;Kita DRK OST (Arche 2);Ellener Dorfstr. 5;2474479;10;20;0;freier Träger der Wohlfahrtspflege;
+98;Drachenkinder e.V.;322;798;Drachenkinder;Lloydstr. 4-6;6844991;8;14;0;Elternverein;bilingualer Kindergarten
+19;Technologiepark e. V.;211;900;Beluga-Krippe;Teerhof 59;696269;20;0;0;freier Träger der Wohlfahrtspflege;Krippe für MitarbeiterInnen mehrerer Firmen
+98;Familienbündnis e.V.;515;901;"Kindergarten ""Fliegenpilz""";Billungstraße 31-33;2434153;5;10;0;Elternverein;
+98;Elternverein Hafenkinder e.V.;437;950;Kindergruppe Hafenkinder;Tilsiter Str. 1;69667665;10;0;0;Elternverein;
+98;Kindergruppe Kauderwelchs e.V.;312;951;Kindergruppe Kauderwelsch;Mathildenstraße 89;68565218;8;0;0;Elternverein;
+98;Scola nova e.V.;325;961;Kindergarten girotondo;Dölvestraße 8;0172-4402503;10;40;0;Elternverein;
+98;"Kita ""Die Lütten e.V.""";111;968;"Kita ""Die Lütten e.V.""";Dechanatstr. 13-15;;10;0;0;Elternverein;
