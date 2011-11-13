@@ -1,0 +1,15 @@
+de:
+  hello: "Hallo"
+  show: "Anzeigen"
+  back: "Zurück"
+  save: "Speichern"
+  edit: "Bearbeiten"
+  create: "Anlegen"
+  update: "Bearbeiten"
+  destroy: "Löschen"
+  cancel: "Abbrechen"
+  confirm: "Sind Sie sicher?"
+  # Layout
+  sign_up: "Anmelden"
+  sign_in: "Login"
+  sign_out: "Logout"
