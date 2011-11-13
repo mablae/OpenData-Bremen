@@ -1,0 +1,20 @@
+defaults: &defaults
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  pool: 5
+  username: root
+  password:
+  socket:
+
+development:
+  <<: *defaults
+  database: bremen_development
+
+test:
+  <<: *defaults
+  database: bremen_test
+
+production:
+  <<: *defaults
+  database: bremen
