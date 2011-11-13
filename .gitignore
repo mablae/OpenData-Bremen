@@ -1,0 +1,16 @@
+.bundle
+db/*.sqlite3
+log/*.log
+tmp/
+.sass-cache/
+.DS_Store
+.sass-cache
+config/database.yml
+log/*.log
+coverage
+*.pid
+public/system
+public/uploads
+rerun.txt
+capybara*.html
+vendor/cache/*
