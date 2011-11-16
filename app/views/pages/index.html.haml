@@ -1,2 +1,18 @@
-%h1 Pages#index
-%p Find me in app/views/pages/index.html.haml
+- title "Worum geht's?"
+
+%section#homepage
+  %header
+    %h1= yield :title
+  %p
+    Diese Website dient
+    = link_to "mir", "http://dennisreimann.de"
+    aktuell als Spielwiese für die
+    = link_to "offenen Daten Bremens", "http://daten.bremen.de"
+  %p
+    Bislang gibt es Ansichten zu folgenden Daten:
+  %ul
+    %li= link_to "Einrichtungen zur Tagesbetreuung von Kindern", kitas_path
+  %p
+    Wer auf Basis dieser Anwendung (Ruby on Rails/Backbone.js) etwas
+    beitragen möchte, findet den
+    = link_to "Quelltext auf Github", "https://github.com/dbloete/OpenData-Bremen"

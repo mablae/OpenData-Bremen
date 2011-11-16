@@ -1,5 +1,5 @@
 defaults: &defaults
-  app_name: 'bremen'
+  app_name: 'OpenData Bremen'
 
 development:
   <<: *defaults
