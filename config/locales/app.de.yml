@@ -13,3 +13,11 @@ de:
   sign_up: "Anmelden"
   sign_in: "Login"
   sign_out: "Logout"
+  # Pagination
+  views:
+    pagination:
+      first: "Erste Seite"
+      previous: "Vorige Seite"
+      next: "Nächste Seite"
+      last: "Letzte Seite"
+      truncate: "…"
