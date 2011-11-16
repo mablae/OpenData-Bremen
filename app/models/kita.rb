@@ -2,7 +2,7 @@ class Kita < ActiveRecord::Base
   validates_presence_of :name
   validates_presence_of :adresse
 
-  geocoded_by :addresse do |obj, results|
+  geocoded_by :geocodierbare_adresse do |obj, results|
     if geo = results.first
       obj.latitude = geo.latitude
       obj.longitude = geo.longitude
@@ -12,6 +12,8 @@ class Kita < ActiveRecord::Base
 
   after_validation :geocodieren
 
+  scope :geocodiert, where("latitude IS NOT NULL AND longitude IS NOT NULL")
+  scope :nicht_geocodiert, where("latitude IS NULL OR longitude IS NULL")
   scope :gefiltert, lambda { |params|
     s = scoped
     if params[:bounds].present? && params[:bounds].is_a?(Hash)
@@ -32,7 +34,11 @@ class Kita < ActiveRecord::Base
   private
 
   def geocodieren
-    geocode if !Rails.env.test? && (new_record? || adresse_changed?)
+    geocode if !Rails.env.test? && (new_record? || adresse_changed? || (adresse? && !geocodiert?))
     true
+  end
+
+  def geocodierbare_adresse
+    "#{name}, #{adresse}, Bremen, Deutschland"
   end
 end

@@ -23,4 +23,27 @@ namespace :app do
 
   end
 
+  namespace :import do
+
+    desc "Import der Kita-Daten"
+    task :kitas => :environment do
+      require 'importer/kitas'
+      importer = Importer::Kitas.new("#{Rails.root}/data/opendata_kita.csv")
+      importer.run
+    end
+
+  end
+
+  namespace :geocode do
+
+    desc "Geokodieren der Kita-Daten"
+    task :kitas => :environment do
+      Kita.nicht_geocodiert.each do |kita|
+        kita.geocodieren!
+        kita.save! if kita.geocodiert?
+      end
+    end
+
+  end
+
 end
