@@ -24,10 +24,11 @@ gem 'faker'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'compass'
+  gem 'compass', :git => 'git://github.com/chriseppstein/compass.git'
   gem 'sass-rails'
   gem 'coffee-rails'
   gem 'uglifier'
+  gem 'bootstrap-sass'
 end
 
 group :development do

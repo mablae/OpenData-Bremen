@@ -7,9 +7,14 @@
     = csrf_meta_tag
     = yield(:head)
   %body
-    %header#header
-      %h1= Settings.app_name
-    #content
+    .topbar
+      .topbar-inner
+        .container
+          = link_to Settings.app_name, root_path, class: 'brand'
+          = render 'shared/topnav'
+    #content.container
       = render 'shared/flash', flash: flash
       = yield
-    %footer#footer
+    %footer.footer
+      .container
+        = render 'shared/footer'
