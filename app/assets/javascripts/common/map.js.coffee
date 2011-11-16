@@ -6,7 +6,6 @@ window.Map = class
       zoom: 12
       maxZoomLevel: 21
       mapTypeId: google.maps.MapTypeId.ROADMAP
-      disableDoubleClickZoom: true
       scrollwheel: false
       navigationControlOptions:
         style: google.maps.NavigationControlStyle.ZOOM_PAN
