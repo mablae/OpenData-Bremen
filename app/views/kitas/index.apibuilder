@@ -1,3 +1,18 @@
 array :kitas do
-  render kitas
+  kitas.each do |k|
+    element :kita do
+      id k.id
+      name k.name
+      profil k.profil
+      telefon k.telefon
+      adresse k.adresse_normalisiert
+      latitude k.latitude
+      longitude k.longitude
+      plaetze_03 k.plaetze_03
+      plaetze_36 k.plaetze_36
+      plaetze_6 k.plaetze_6
+      traeger_art k.traeger_art
+      traeger_name k.traeger_name
+    end
+  end
 end

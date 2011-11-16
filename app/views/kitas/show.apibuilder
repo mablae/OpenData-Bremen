@@ -1,1 +1,14 @@
-render kita
+element :kita do
+  id kita.id
+  name kita.name
+  profil kita.profil
+  telefon kita.telefon
+  adresse kita.adresse_normalisiert
+  latitude kita.latitude
+  longitude kita.longitude
+  plaetze_03 kita.plaetze_03
+  plaetze_36 kita.plaetze_36
+  plaetze_6 kita.plaetze_6
+  traeger_art kita.traeger_art
+  traeger_name kita.traeger_name
+end
