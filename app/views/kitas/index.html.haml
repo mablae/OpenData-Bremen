@@ -1,0 +1,10 @@
+- title "Kitas"
+- content_for :head do
+  = javascript_include_tag 'http://maps.google.com/maps/api/js?sensor=true'
+
+%section#kitas
+  %header.page-header
+    %h1
+      = yield :title
+      %small Einrichtungen zur Tagesbetreuung von Kindern
+  #kita-map.map-container
