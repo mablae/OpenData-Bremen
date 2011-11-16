@@ -4,6 +4,12 @@ GIT
   specs:
     geocoder (1.0.5)
 
+GIT
+  remote: git://github.com/dbloete/api_builder.git
+  revision: 1fd7eb2ede2114ebf2f47089e208d6766deeb536
+  specs:
+    api_builder (1.0.2)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -255,6 +261,7 @@ PLATFORMS
 
 DEPENDENCIES
   active_reload
+  api_builder!
   awesome_print
   backbone-on-rails
   bcrypt-ruby

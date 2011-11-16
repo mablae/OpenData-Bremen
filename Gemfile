@@ -15,6 +15,7 @@ gem 'jquery-rails'
 gem 'backbone-on-rails'
 gem 'kaminari'
 gem 'geocoder', :git => 'git://github.com/alexreisner/geocoder.git'
+gem 'api_builder', :git => 'git://github.com/dbloete/api_builder.git'
 
 # Test data and seeds
 gem 'factory_girl_rails'
