@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/alexreisner/geocoder.git
+  revision: 833fcf3ce7ec52b5bf5b87297a081539864e6ee4
+  specs:
+    geocoder (1.0.5)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -264,6 +270,7 @@ DEPENDENCIES
   faker
   fuubar
   fuubar-cucumber
+  geocoder!
   guard-bundler
   guard-livereload
   guard-rspec

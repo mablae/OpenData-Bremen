@@ -14,6 +14,7 @@ gem 'haml-rails'
 gem 'jquery-rails'
 gem 'backbone-on-rails'
 gem 'kaminari'
+gem 'geocoder', :git => 'git://github.com/alexreisner/geocoder.git'
 
 # Test data and seeds
 gem 'factory_girl_rails'
