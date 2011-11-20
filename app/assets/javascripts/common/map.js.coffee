@@ -12,9 +12,9 @@ window.Map = class
       mapTypeControlOptions:
         mapTypeIds: [google.maps.MapTypeId.HYBRID, google.maps.MapTypeId.SATELLITE, google.maps.MapTypeId.ROADMAP]
     @markers = [];
-    @markerBounds = new google.maps.LatLngBounds();
-    @options = $.extend(defaults, options);
-    @googleMap = new google.maps.Map(document.getElementById(@containerId), @options);
+    @markerBounds = new google.maps.LatLngBounds()
+    @options = $.extend(defaults, options)
+    @googleMap = new google.maps.Map(document.getElementById(@containerId), @options)
     @container = $("##{@containerId}")
 
   # Markers
@@ -31,18 +31,22 @@ window.Map = class
       new google.maps.Point(0,0),
       new google.maps.Point(5,5)
 
-  markerForObject: (data) ->
-    opts =
+  markerForObject: (data, opts) ->
+    defaults =
       position: @latLng data.latitude, data.longitude
       title: data.title
       map: @googleMap
       # icon: @markerIcon data.map_icon_url
-    new google.maps.Marker opts
+    new google.maps.Marker $.extend(defaults, opts)
+
+  addMarker: (marker) ->
+    @markerBounds.extend marker.getPosition()
+    @markers.push marker
+    marker
 
   addObject: (obj) ->
     marker = @markerForObject obj
-    @markerBounds.extend marker.getPosition()
-    @markers.push marker
+    @addMarker marker
     marker
 
   addObjects: (objects) ->
