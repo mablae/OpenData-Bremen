@@ -4,6 +4,8 @@ class KitasController < ApplicationController
 
   respond_to :json
 
+  caches_page :index
+
   def index
     respond_with kitas
   end
