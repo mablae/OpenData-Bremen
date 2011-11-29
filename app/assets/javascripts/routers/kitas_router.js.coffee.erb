@@ -32,8 +32,10 @@ class Bremen.Routers.Kitas extends Backbone.Router
   show: (id) ->
     kita = @kitas.get(id)
     if kita
-      @showView.remove() if @showView
+      @showView.close() if @showView
       @showView = new Bremen.Views.KitasShow(model: kita)
+      @showView.bind 'closed', =>
+        @navigate('')
       $('#kitas-app').append(@showView.render().el)
     else
       # Funktion auf das reset binden, da die Collection noch nicht geladen
