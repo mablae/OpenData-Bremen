@@ -3,6 +3,7 @@
   <h3>
     <%= @name %>
     <% if @profil?: %>
+    <br />
     <small><%= @profil %></small>
     <% end %>
   </h3>
@@ -25,7 +26,7 @@
     <% end %>
   </p>
 
-  <h5>Freie Plätze ab Oktober:</h5>
+  <h5>Plätze ab Oktober:</h5>
   <ul>
     <li>0-3 Jahre: <%= @plaetze_03 %></li>
     <li>3-6 Jahre: <%= @plaetze_36 %></li>
