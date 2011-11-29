@@ -4,13 +4,14 @@ class KitasController < ApplicationController
 
   respond_to :json
 
-  caches_page :index
-
   def index
     respond_with kitas
   end
 
   def show
-    respond_with kita
+    respond_with kita do |format|
+      format.html { redirect_to kitas_path(anchor: kita.id) }
+      format.json
+    end
   end
 end

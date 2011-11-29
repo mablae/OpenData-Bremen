@@ -1,2 +1,8 @@
 class Bremen.Views.KitasIndex extends Backbone.View
-  template: JST['templates/kitas/index']
+  tagName: 'div'
+  id: 'kitas-index'
+  template: JST['kitas/index']
+
+  render: =>
+    $(@el).html @template()
+    this
