@@ -8,7 +8,7 @@ class Bremen.Routers.Kitas extends Backbone.Router
     @kitas.bind 'reset', @refreshMap
     @indexView = new Bremen.Views.KitasIndex(collection: @kitas)
     $('#kitas-app').html(@indexView.render().el)
-    @map = new Map 'kita-map', zoom: 12
+    @map = new Map 'kitas-map', zoom: 12
     @map.centerAt(Settings.default_latitude, Settings.default_longitude)
     # Benutzerposition
     if navigator.geolocation
@@ -18,10 +18,9 @@ class Bremen.Routers.Kitas extends Backbone.Router
           lng = position.coords.longitude
           @map.centerAt lat, lng
           @map.setZoomLevel 15
-          marker = @map.markerForObject {},
-            position: @map.latLng lat, lng
+          marker = @map.markerForObject { latitude: lat, longitude: lng },
             title: 'Ihre aktuelle Position'
-            icon: "<%= asset_path('position.png') %>"
+            icon: MapIcons.icon('position')
           marker.setMap @map.googleMap
     # Kitas laden
     @kitas.fetch { data: { per: 1000 } }
@@ -34,8 +33,6 @@ class Bremen.Routers.Kitas extends Backbone.Router
     if kita
       @showView.close() if @showView
       @showView = new Bremen.Views.KitasShow(model: kita)
-      @showView.bind 'closed', =>
-        @navigate('')
       $('#kitas-app').append(@showView.render().el)
     else
       # Funktion auf das reset binden, da die Collection noch nicht geladen
@@ -51,7 +48,9 @@ class Bremen.Routers.Kitas extends Backbone.Router
   refreshMap: =>
     @map.clearMarkers()
     @kitas.each (kita) =>
-      marker = @map.markerForObject(kita.toJSON(), title: kita.get('name'), icon: "<%= asset_path('kids.png') %>")
+      marker = @map.markerForObject { latitude: kita.get('latitude'), longitude: kita.get('longitude')},
+        title: kita.get('name')
+        icon: MapIcons.icon('kita')
       marker.on 'click', =>
         @navigate("#{kita.id}", true)
       kita.set(marker: marker)

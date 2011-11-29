@@ -1,4 +1,5 @@
 #= require underscore
+#= require markerclusterer
 
 window.Map = class
   constructor: (@containerId, options) ->
@@ -15,6 +16,7 @@ window.Map = class
     @markerBounds = new google.maps.LatLngBounds()
     @options = $.extend(defaults, options)
     @googleMap = new google.maps.Map(document.getElementById(@containerId), @options)
+    @clusterer = new MarkerClusterer(@googleMap, @markers, maxZoom: 14)
     @container = $("##{@containerId}")
 
   # Markers
@@ -24,29 +26,21 @@ window.Map = class
       marker.setMap null
     @markers = []
     @markerBounds = new google.maps.LatLngBounds()
-
-  markerIcon: (icon_url) ->
-    new google.maps.MarkerImage icon_url,
-      new google.maps.Size(16,16),
-      new google.maps.Point(0,0),
-      new google.maps.Point(5,5)
+    @clusterer.clearMarkers()
 
   markerForObject: (data, opts) ->
-    defaults =
-      position: @latLng data.latitude, data.longitude
-      title: data.title
+    defaults = position: @latLng data.latitude, data.longitude
     new google.maps.Marker $.extend(defaults, opts)
 
   addMarker: (marker) ->
     @markerBounds.extend marker.getPosition()
     @markers.push marker
+    @clusterer.addMarker marker
     marker.setMap @googleMap
     marker
 
   addObject: (obj) ->
-    marker = @markerForObject obj
-    @addMarker marker
-    marker
+    @addMarker(@markerForObject obj)
 
   addObjects: (objects) ->
     _.each objects, (obj) =>

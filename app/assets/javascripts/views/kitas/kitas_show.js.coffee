@@ -17,6 +17,5 @@ class Bremen.Views.KitasShow extends Backbone.View
 
   close: =>
     $(@el).bind 'hidden', =>
-      @trigger('closed')
       @remove()
     $(@el).modal('hide')
