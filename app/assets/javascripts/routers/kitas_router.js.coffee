@@ -53,5 +53,4 @@ class Bremen.Routers.Kitas extends Backbone.Router
         icon: MapIcons.icon('kita')
       marker.on 'click', =>
         @navigate("#{kita.id}", true)
-      kita.set(marker: marker)
       @map.addMarker marker

@@ -1,5 +1,5 @@
 class KitasController < ApplicationController
-  expose(:kitas) { Kita.geocodiert.page(params[:page]).per(params[:per]) }
+  expose(:kitas) { Kita.geocodiert.gefiltert(params).page(params[:page]).per(params[:per]) }
   expose(:kita)
 
   respond_to :json

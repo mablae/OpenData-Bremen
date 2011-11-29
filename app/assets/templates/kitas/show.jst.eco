@@ -26,7 +26,7 @@
     <% end %>
   </p>
 
-  <h5>Plätze ab Oktober:</h5>
+  <h5>Plätze</h5>
   <ul>
     <li>0-3 Jahre: <%= @plaetze_03 %></li>
     <li>3-6 Jahre: <%= @plaetze_36 %></li>

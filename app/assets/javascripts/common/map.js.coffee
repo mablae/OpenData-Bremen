@@ -23,7 +23,6 @@ window.Map = class
   clearMarkers: ->
     _.each @markers, (marker) =>
       marker.unbindAll()
-      marker.setMap null
     @markers = []
     @markerBounds = new google.maps.LatLngBounds()
     @clusterer.clearMarkers()
@@ -36,7 +35,6 @@ window.Map = class
     @markerBounds.extend marker.getPosition()
     @markers.push marker
     @clusterer.addMarker marker
-    marker.setMap @googleMap
     marker
 
   addObject: (obj) ->

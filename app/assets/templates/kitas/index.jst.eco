@@ -1,1 +1,61 @@
+<header class="page-header">
+  <h1>
+    Kitas
+    <small>Einrichtungen zur Tagesbetreuung von Kindern</small>
+  </h1>
+</header>
+
 <div id="kitas-map" class="map-container"></div>
+
+<form id="kitas-filter" url="/kitas" method="get" class="row">
+  <div class="span4">
+    <h3>Filter</h3>
+    <p>Nutzen Sie die rechts stehenden Optionen um die Karte
+    nach Ihren Wünschen zu filtern.</p>
+  </div>
+  <div class="span7">
+    <div class="clearfix">
+      <label><strong>Trägerart</strong></label>
+      <div class="input">
+        <ul class="inputs-list">
+          <% for art in @traegerArten: %>
+          <li>
+            <label>
+              <input name="traeger_art[]" type="checkbox" checked="checked" value="<%= art %>" />
+              <span><%= art %></span>
+            </label>
+          </li>
+          <% end %>
+        </ul>
+        <input name="traeger_art[]" type="hidden" value="" />
+      </div>
+    </div>
+  </div>
+  <div class="span5">
+    <div class="clearfix">
+      <label><strong>Alter</strong></label>
+      <div class="input">
+        <ul class="inputs-list">
+          <li>
+            <label>
+              <input name="alter[]" type="checkbox" value="plaetze_03" />
+              <span>0 bis 3 Jahre</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input name="alter[]" type="checkbox" value="plaetze_36" />
+              <span>3 bis 6 Jahre</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input name="alter[]" type="checkbox" value="plaetze_6" />
+              <span>ab 6 Jahre</span>
+            </label>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</form>
