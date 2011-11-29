@@ -35,13 +35,12 @@ window.Map = class
     defaults =
       position: @latLng data.latitude, data.longitude
       title: data.title
-      map: @googleMap
-      # icon: @markerIcon data.map_icon_url
     new google.maps.Marker $.extend(defaults, opts)
 
   addMarker: (marker) ->
     @markerBounds.extend marker.getPosition()
     @markers.push marker
+    marker.setMap @googleMap
     marker
 
   addObject: (obj) ->
