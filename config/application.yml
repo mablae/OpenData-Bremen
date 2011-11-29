@@ -5,6 +5,7 @@ defaults: &defaults
   default_latitude: 53.07498
   default_longitude: 8.8072
   google_maps_api_key: ABQIAAAAcIz016TRYiMH1KvissP1SxS8LUmBBxjxoxaGUy-MjULCj7hntBRRt0mrQ4Gz3FCuoPVPBAz46R-ROQ
+  google_analytics_id:
 
 development:
   <<: *defaults
@@ -15,3 +16,4 @@ test:
 
 production:
   <<: *defaults
+  google_analytics_id: UA-376258-23
