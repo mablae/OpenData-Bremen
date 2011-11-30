@@ -6,6 +6,7 @@ class Bremen.Views.KitasIndex extends Backbone.View
   events:
     'click #filter-submit': 'filter'
     'click #filter-reset': 'reset'
+    'click #filter-close': 'close'
 
   render: =>
     traegerArten = [
@@ -27,6 +28,11 @@ class Bremen.Views.KitasIndex extends Backbone.View
     @collection.fetch { data: data }
     @.$('form#kitas-filter').hide()
 
-  reset: =>
+  close: (e) =>
+    e.preventDefault()
+    @.$('form#kitas-filter').hide()
+
+  reset: (e) =>
+    e.preventDefault()
     @.$('form#kitas-filter input[name="traeger_art[]"]').attr('checked', 'checked')
     @.$('form#kitas-filter input[name="alter[]"]').removeAttr('checked')

@@ -51,5 +51,6 @@
     <div class="actions">
       <input id="filter-submit" type="submit" class="btn primary" value="Filtern">&nbsp;
       <button id="filter-reset" type="reset" class="btn">Zurücksetzen</button>
+      <button id="filter-close" type="reset" class="btn pull-right">Schließen</button>
     </div>
 </form>
