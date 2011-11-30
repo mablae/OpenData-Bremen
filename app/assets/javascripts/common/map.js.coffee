@@ -1,5 +1,6 @@
 #= require underscore
 #= require markerclusterer
+#= require ./google_maps
 
 window.Map = class
   constructor: (@containerId, options) ->
@@ -9,15 +10,22 @@ window.Map = class
       mapTypeId: google.maps.MapTypeId.ROADMAP
       scrollwheel: false
       navigationControlOptions:
-        style: google.maps.NavigationControlStyle.ZOOM_PAN
+        style: google.maps.NavigationControlStyle.ANDROID
       mapTypeControlOptions:
         mapTypeIds: [google.maps.MapTypeId.HYBRID, google.maps.MapTypeId.SATELLITE, google.maps.MapTypeId.ROADMAP]
     @markers = [];
     @markerBounds = new google.maps.LatLngBounds()
     @options = $.extend(defaults, options)
+    @mapLoaded = false
     @googleMap = new google.maps.Map(document.getElementById(@containerId), @options)
+    @on 'idle', =>
+      unless @mapLoaded
+        # Map-Controls mit IDs versehen
+        @labelControlsWithId()
+        @mapLoaded = true
     @clusterer = new MarkerClusterer(@googleMap, @markers, maxZoom: 14)
     @container = $("##{@containerId}")
+    @labelControlsWithId()
 
   # Markers
   clearMarkers: ->
@@ -110,3 +118,19 @@ window.Map = class
 
   bottomRight: ->
     @latLng  @bottomLeftLat(), @topRightLng()
+
+  # Labels the Map Controls with IDs so they can be referenced with CSS, see:
+  # http://stackoverflow.com/questions/4924456/custom-position-non-custom-control-google-maps-v3-api
+  labelControlsWithId: ->
+    controlList =
+      'map_type_control': 'margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; z-index: 0; position: absolute; cursor: pointer; right: 0px; top: 0px;'
+      'pan_control': 'cursor: url(https://maps-api-ssl.google.com/intl/en_us/mapfiles/openhand_8_8.cur), default; width: 78px; height: 78px; position: absolute; left: 0px; top: 0px; '
+      'zoom_control': 'position: absolute; left: 27px; top: 128px; '
+      'zoom_control_android': 'position: absolute; left: 0px; top: 5px;'
+      'streetmap_control': 'width: 32px; height: 38px; overflow-x: hidden; overflow-y: hidden; position: absolute; left: 0px; top: 0px; '
+      'streetmap_control_android': 'margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; -webkit-user-select: none; position: absolute; top: 0px; left: 0px; '
+      'hidden_streetmap_control': 'width: 32px; height: 38px; overflow-x: hidden; overflow-y: hidden; position: absolute; left: 0px; top: 0px; visibility: hidden; '
+    $.each controlList, (id, attr) =>
+      ctrl = @container.find("div[style*='#{attr}']")
+      ctrl.attr('id', id) if ctrl.length == 1
+    true

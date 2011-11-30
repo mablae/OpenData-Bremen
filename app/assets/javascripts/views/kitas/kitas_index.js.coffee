@@ -4,7 +4,8 @@ class Bremen.Views.KitasIndex extends Backbone.View
   template: JST['kitas/index']
 
   events:
-    'change form#kitas-filter :input': 'filter'
+    'click #filter-submit': 'filter'
+    'click #filter-reset': 'reset'
 
   render: =>
     traegerArten = [
@@ -19,7 +20,13 @@ class Bremen.Views.KitasIndex extends Backbone.View
     $(@el).html @template(traegerArten: traegerArten)
     this
 
-  filter: =>
+  filter: (e) =>
+    e.preventDefault()
     data = @.$('form#kitas-filter').serializeObject()
     data.per = 1000
     @collection.fetch { data: data }
+    @.$('form#kitas-filter').hide()
+
+  reset: =>
+    @.$('form#kitas-filter input[name="traeger_art[]"]').attr('checked', 'checked')
+    @.$('form#kitas-filter input[name="alter[]"]').removeAttr('checked')
