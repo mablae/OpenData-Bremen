@@ -24,9 +24,7 @@ class Bremen.Views.KitasIndex extends Backbone.View
 
   filter: (e) =>
     e.preventDefault()
-    data = @.$('form#kitas-filter').serializeObject()
-    data.per = 1000
-    @collection.fetch { data: data }
+    window.kitasApp.loadKitas()
     @.$('form#kitas-filter').hide()
 
   close: (e) =>

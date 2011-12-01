@@ -2,6 +2,8 @@
   .topbar-inner
     .container
       %a.brand(href="/kitas") Kitas in Bremen
+      #loading
+        %img(src="#{asset('loading.gif')}")
       %ul.nav
         %li
           %a#filter-toggle(href="#") Filter

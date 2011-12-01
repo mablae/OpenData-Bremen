@@ -20,10 +20,10 @@ class Bremen.Routers.Kitas extends Backbone.Router
           @map.setZoomLevel 15
           marker = @map.markerForObject { latitude: lat, longitude: lng },
             title: 'Ihre aktuelle Position'
-            icon: MapIcons.icon('position')
+            icon: asset('position.png')
           marker.setMap @map.googleMap
     # Kitas laden
-    @kitas.fetch { data: { per: 1000 } }
+    @loadKitas()
 
   index: ->
     # log 'index'
@@ -45,12 +45,18 @@ class Bremen.Routers.Kitas extends Backbone.Router
         @show(id)
       @kitas.bind 'reset', showOnStart
 
+  loadKitas: ->
+    data = $('form#kitas-filter').serializeObject()
+    data.per = 1000
+    $('#loading img').show()
+    @kitas.fetch { data: data, complete: (-> $('#loading img').hide()) }
+
   refreshMap: =>
     @map.clearMarkers()
     @kitas.each (kita) =>
       marker = @map.markerForObject { latitude: kita.get('latitude'), longitude: kita.get('longitude')},
         title: kita.get('name')
-        icon: MapIcons.icon('kita')
+        icon: asset('kita.png')
       marker.on 'click', =>
         @navigate("/#{kita.id}", true)
       @map.addMarker marker
