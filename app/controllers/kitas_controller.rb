@@ -10,7 +10,7 @@ class KitasController < ApplicationController
 
   def show
     respond_with kita do |format|
-      format.html { redirect_to kitas_path(anchor: kita.id) }
+      format.html { render :index }
       format.json
     end
   end

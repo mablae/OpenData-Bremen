@@ -6,6 +6,7 @@ class Bremen.Views.KitasShow extends Backbone.View
 
   events:
     'click .close': 'close'
+    'hidden': 'hidden'
 
   initialize: ->
     @model.bind 'change', @render
@@ -16,6 +17,8 @@ class Bremen.Views.KitasShow extends Backbone.View
     this
 
   close: =>
-    $(@el).bind 'hidden', =>
-      @remove()
     $(@el).modal('hide')
+
+  hidden: =>
+    window.kitasApp.navigate("/")
+    @remove()

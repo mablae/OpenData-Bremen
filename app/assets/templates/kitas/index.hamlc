@@ -1,7 +1,7 @@
 .topbar
   .topbar-inner
     .container
-      %a.brand(href="#") Kitas in Bremen
+      %a.brand(href="/kitas") Kitas in Bremen
       %ul.nav
         %li
           %a#filter-toggle(href="#") Filter

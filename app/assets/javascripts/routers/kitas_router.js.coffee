@@ -1,7 +1,7 @@
 class Bremen.Routers.Kitas extends Backbone.Router
   routes:
     '': 'index'
-    ':id': 'show'
+    '/:id': 'show'
 
   initialize: ->
     @kitas = new Bremen.Collections.Kitas()
@@ -52,5 +52,5 @@ class Bremen.Routers.Kitas extends Backbone.Router
         title: kita.get('name')
         icon: MapIcons.icon('kita')
       marker.on 'click', =>
-        @navigate("#{kita.id}", true)
+        @navigate("/#{kita.id}", true)
       @map.addMarker marker
