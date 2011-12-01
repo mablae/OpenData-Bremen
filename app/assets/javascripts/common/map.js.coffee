@@ -1,6 +1,9 @@
 #= require underscore
 #= require markerclusterer
-#= require ./google_maps
+
+# Convenience extension to the Google Maps Marker
+google.maps.Marker.prototype.on = (event, handler) ->
+  google.maps.event.addListener this, event, handler
 
 window.Map = class
   constructor: (@containerId, options) ->
