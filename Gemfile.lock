@@ -110,6 +110,8 @@ GEM
       rspec (~> 2.0)
     erubis (2.7.0)
     eventmachine (0.12.10)
+    exception_notification (2.5.2)
+      actionmailer (>= 3.0.4)
     execjs (1.2.9)
       multi_json (~> 1.0)
     factory_girl (2.2.0)
@@ -284,6 +286,7 @@ DEPENDENCIES
   database_cleaner
   decent_exposure
   email_spec
+  exception_notification
   execjs
   factory_girl_rails
   faker
