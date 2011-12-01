@@ -1,0 +1,34 @@
+%header.modal-header
+  %a.close(href="#")x
+  %h3
+    = @name
+    - if @profil
+      %br
+      %small= @profil
+
+.modal-body
+  %p
+    %strong Träger:
+    = @traeger_name
+    - if @traeger_art
+      = "(#{@traeger_art})"
+    - if @adresse
+      %br
+      %strong Adresse:
+      = @adresse
+    -if @telefon
+      %br
+      %strong Telefon:
+      = @telefon
+
+  %h5 Plätze
+  %ul
+    %li
+      0-3 Jahre:
+      = @plaetze_03
+    %li
+      3-6 Jahre:
+      = @plaetze_36
+    %li
+      ab 6 Jahre:
+      = @plaetze_6

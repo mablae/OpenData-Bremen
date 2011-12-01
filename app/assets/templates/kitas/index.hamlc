@@ -1,0 +1,50 @@
+.topbar
+  .topbar-inner
+    .container
+      %a.brand(href="#") Kitas in Bremen
+      %ul.nav
+        %li
+          %a#filter-toggle(href="#") Filter
+      %ul.nav.secondary-nav
+        %li
+          %a(href="/") OpenData Bremen
+
+#kitas-map.map-container
+
+%form#kitas-filter.filter-form.form-stacked(url="/kitas" method="get")
+  .row
+    .span5
+      .clearfix
+        %label
+          %strong Trägerart
+        .input
+          %ul.inputs-list
+            - for art in @traegerArten
+              %li
+                %label
+                  %input(name="traeger_art[]" type="checkbox" checked="checked" value="#{art}")
+                  %span= art
+          %input(name="traeger_art[]" type="hidden" value="")
+    .span3
+      .clearfix
+        %label
+          %strong Alter
+        .input
+          %ul.inputs-list
+            %li
+              %label
+                %input(name="alter[]" type="checkbox" value="plaetze_03")
+                %span 0 bis 3 Jahre
+            %li
+              %label
+                %input(name="alter[]" type="checkbox" value="plaetze_36")
+                %span 3 bis 6 Jahre
+            %li
+              %label
+                %input(name="alter[]" type="checkbox" value="plaetze_6")
+                %span ab 6 Jahre
+  .actions
+    %input(id="filter-submit" type="submit" class="btn primary" value="Filtern")
+    &nbsp;
+    %button(id="filter-reset" type="reset" class="btn") Zurücksetzen
+    %button(id="filter-close" type="reset" class="btn pull-right") Schließen

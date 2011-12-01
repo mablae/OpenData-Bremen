@@ -29,6 +29,8 @@ group :assets do
   gem 'coffee-rails'
   gem 'uglifier'
   gem 'bootstrap-sass'
+  gem 'haml_coffee_assets'
+  gem 'execjs'
 end
 
 group :development do

@@ -7,6 +7,7 @@ class Bremen.Views.KitasIndex extends Backbone.View
     'click #filter-submit': 'filter'
     'click #filter-reset': 'reset'
     'click #filter-close': 'close'
+    'click #filter-toggle': 'toggle'
 
   render: =>
     traegerArten = [
@@ -31,6 +32,10 @@ class Bremen.Views.KitasIndex extends Backbone.View
   close: (e) =>
     e.preventDefault()
     @.$('form#kitas-filter').hide()
+
+  toggle: (e) =>
+    e.preventDefault()
+    @.$('form#kitas-filter').toggle()
 
   reset: (e) =>
     e.preventDefault()
