@@ -3,7 +3,7 @@ set :application, "bremen"
 set :domain, "#{application}.innovated.de"
 set :deploy_to, "/var/www/#{application}"
 set :repository, "git://github.com/dbloete/OpenData-Bremen.git"
-set :bundle_cmd, "/usr/local/rvm/gems/ruby-1.9.2-p290@global/bin/bundle"
+set :bundle_cmd, "/usr/local/rvm/gems/ruby-1.9.3-p0/bin/bundle"
 set :rake_cmd, "#{bundle_cmd} exec rake"
 set :skip_scm, false
 set :copy_shared, {
