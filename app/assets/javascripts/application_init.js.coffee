@@ -6,4 +6,4 @@ jQuery ($) ->
   # Kitas
   if $('#kitas-app').length
     window.kitasApp = new Bremen.Routers.Kitas()
-    Backbone.history.start(pushState: true)
+    Backbone.history.start pushState: true

@@ -18,15 +18,15 @@ window.Map = class
         mapTypeIds: [google.maps.MapTypeId.HYBRID, google.maps.MapTypeId.SATELLITE, google.maps.MapTypeId.ROADMAP]
     @markers = [];
     @markerBounds = new google.maps.LatLngBounds()
-    @options = $.extend(defaults, options)
+    @options = $.extend defaults, options
     @mapLoaded = false
-    @googleMap = new google.maps.Map(document.getElementById(@containerId), @options)
+    @googleMap = new google.maps.Map (document.getElementById @containerId), @options
     @on 'idle', =>
       unless @mapLoaded
         # Map-Controls mit IDs versehen
         @labelControlsWithId()
         @mapLoaded = true
-    @clusterer = new MarkerClusterer(@googleMap, @markers, maxZoom: 14)
+    @clusterer = new MarkerClusterer @googleMap, @markers, maxZoom: 14
     @container = $("##{@containerId}")
     @labelControlsWithId()
 
@@ -40,7 +40,7 @@ window.Map = class
 
   markerForObject: (data, opts) ->
     defaults = position: @latLng data.latitude, data.longitude
-    new google.maps.Marker $.extend(defaults, opts)
+    new google.maps.Marker ($.extend defaults, opts)
 
   addMarker: (marker) ->
     @markerBounds.extend marker.getPosition()
@@ -61,7 +61,7 @@ window.Map = class
 
   # Convenience Accessors
   latLng: (lat, lng) ->
-    new google.maps.LatLng(lat, lng)
+    new google.maps.LatLng lat, lng
 
   zoomLevel: ->
     @googleMap.getZoom()
@@ -77,10 +77,10 @@ window.Map = class
 
   zoomTo: (lat, lng) ->
     @setZoomLevel @options.zoom
-    @googleMap.panTo @latLng(lat, lng)
+    @googleMap.panTo(@latLng lat, lng)
 
   centerAt: (lat, lng) ->
-    @googleMap.setCenter @latLng(lat, lng)
+    @googleMap.setCenter(@latLng lat, lng)
 
   fitBounds: ->
     @googleMap.fitBounds @markerBounds
@@ -134,6 +134,6 @@ window.Map = class
       'streetmap_control_android': 'margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; -webkit-user-select: none; position: absolute; top: 0px; left: 0px; '
       'hidden_streetmap_control': 'width: 32px; height: 38px; overflow-x: hidden; overflow-y: hidden; position: absolute; left: 0px; top: 0px; visibility: hidden; '
     $.each controlList, (id, attr) =>
-      ctrl = @container.find("div[style*='#{attr}']")
+      ctrl = @container.find "div[style*='#{attr}']"
       ctrl.attr('id', id) if ctrl.length == 1
     true

@@ -12,13 +12,13 @@ class Bremen.Views.KitasShow extends Backbone.View
     @model.bind 'change', @render
 
   render: =>
-    $(@el).html @template(@model.toJSON())
+    $(@el).html(@template @model.toJSON())
     $(@el).modal backdrop: true, keyboard: true, show: true
     this
 
   close: =>
-    $(@el).modal('hide')
+    $(@el).modal 'hide'
 
   hidden: =>
-    window.kitasApp.navigate('')
+    window.kitasApp.navigate ''
     @remove()

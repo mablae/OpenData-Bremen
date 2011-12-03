@@ -6,13 +6,13 @@ class Bremen.Routers.Kitas extends Backbone.Router
   initialize: ->
     @kitas = new Bremen.Collections.Kitas()
     @kitas.bind 'reset', @refreshMap
-    @indexView = new Bremen.Views.KitasIndex(collection: @kitas)
+    @indexView = new Bremen.Views.KitasIndex collection: @kitas
     @map = new Map 'kitas-map', zoom: 12
-    @map.centerAt(Settings.default_latitude, Settings.default_longitude)
+    @map.centerAt Settings.default_latitude, Settings.default_longitude
     # Benutzerposition
     if navigator.geolocation
       navigator.geolocation.getCurrentPosition (position) =>
-        @setPosition(position.coords.latitude, position.coords.longitude) if position.coords?
+        (@setPosition position.coords.latitude, position.coords.longitude) if position.coords?
     # Kitas laden
     @loadKitas()
 
@@ -23,8 +23,8 @@ class Bremen.Routers.Kitas extends Backbone.Router
     kita = @kitas.get(id)
     if kita
       @showView.close() if @showView
-      @showView = new Bremen.Views.KitasShow(model: kita)
-      $('#kitas-app').append(@showView.render().el)
+      @showView = new Bremen.Views.KitasShow model: kita
+      $('#kitas-app').append @showView.render().el
     else
       # Funktion auf das reset binden, da die Collection noch nicht geladen
       # ist. Bei der Ausführung muss unbind ausgeführt werden, da sonst bei
@@ -33,7 +33,7 @@ class Bremen.Routers.Kitas extends Backbone.Router
       # referenzieren müssen.
       showOnStart = =>
         @kitas.unbind 'reset', showOnStart
-        @show(id)
+        @show id
       @kitas.bind 'reset', showOnStart
 
   loadKitas: ->
@@ -47,9 +47,9 @@ class Bremen.Routers.Kitas extends Backbone.Router
     @kitas.each (kita) =>
       marker = @map.markerForObject { latitude: kita.get('latitude'), longitude: kita.get('longitude')},
         title: kita.get('name')
-        icon: asset('kita.png')
+        icon: asset 'kita.png'
       marker.on 'click', =>
-        @navigate("/#{kita.id}", true)
+        @navigate "/#{kita.id}", true
       @map.addMarker marker
 
   setPosition: (lat, lng) =>
