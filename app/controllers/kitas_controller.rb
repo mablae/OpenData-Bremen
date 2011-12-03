@@ -1,7 +1,6 @@
 # encoding: utf-8
 class KitasController < ApplicationController
   expose(:kitas) { Kita.geocodiert.gefiltert(params).page(params[:page]).per(params[:per]) }
-  expose(:kita)
 
   respond_to :json
 
@@ -10,7 +9,9 @@ class KitasController < ApplicationController
   end
 
   def show
-    respond_with kita do |format|
+    @kita = Kita.find params[:id]
+
+    respond_with @kita do |format|
       format.html { render :index }
       format.json
     end

@@ -13,6 +13,7 @@
           %li= link_to 'Das Projekt', '#', class: 'page', data: {'page-id' => 'kitas-projekt'}
           %li= link_to Settings.app_name, Settings.url
   #kitas-map.map-container
+  = render @kita ? @kita : 'liste'
   = render 'filter'
   = render 'projekt'
   = render 'links'

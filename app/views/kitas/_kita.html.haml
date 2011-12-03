@@ -1,0 +1,35 @@
+#kitas-show.modal.hide.fade.in
+  %header.modal-header
+    %a.close(href="#")x
+    %h3
+      = kita.name
+      - if kita.profil?
+        %br
+        %small= kita.profil
+
+  .modal-body
+    %p
+      %strong Träger:
+      = kita.traeger_name
+      - if kita.traeger_art?
+        = "(#{kita.traeger_art})"
+      - if kita.adresse_normalisiert
+        %br
+        %strong Adresse:
+        = kita.adresse_normalisiert
+      -if kita.telefon
+        %br
+        %strong Telefon:
+        = kita.telefon
+
+    %h5 Plätze
+    %ul
+      %li
+        0-3 Jahre:
+        = kita.plaetze_03
+      %li
+        3-6 Jahre:
+        = kita.plaetze_36
+      %li
+        ab 6 Jahre:
+        = kita.plaetze_6

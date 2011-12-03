@@ -1,0 +1,10 @@
+#kitas-liste.modal.hide.fade.in
+  %header.modal-header
+    %a.close(href="#")x
+    %h3 Kitas, Kindergärten und Kindergruppen in Bremen
+  .modal-body
+    %ul
+      - kitas.each do |k|
+        %li= link_to k.name, kita_path(id: k.id, slug: k.slug)
+  %footer.modal-footer
+    = paginate kitas
