@@ -15,6 +15,7 @@ gem 'haml-rails'
 gem 'jquery-rails'
 gem 'backbone-on-rails'
 gem 'kaminari'
+gem 'friendly_id', '~> 4.0.0.beta14'
 gem 'geocoder', :git => 'git://github.com/alexreisner/geocoder.git'
 gem 'api_builder', :git => 'git://github.com/dbloete/api_builder.git'
 

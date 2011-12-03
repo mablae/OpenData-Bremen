@@ -13,6 +13,7 @@ array :kitas do
       plaetze_6 k.plaetze_6
       traeger_art k.traeger_art
       traeger_name k.traeger_name
+      slug k.slug
     end
   end
 end

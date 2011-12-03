@@ -11,4 +11,5 @@ element :kita do
   plaetze_6 kita.plaetze_6
   traeger_art kita.traeger_art
   traeger_name kita.traeger_name
+  slug kita.slug
 end

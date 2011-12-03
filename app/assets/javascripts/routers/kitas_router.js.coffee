@@ -1,7 +1,7 @@
 class Bremen.Routers.Kitas extends Backbone.Router
   routes:
     '': 'index'
-    '/:id': 'show'
+    ':id/:slug': 'show'
 
   initialize: ->
     @kitas = new Bremen.Collections.Kitas()
@@ -19,7 +19,7 @@ class Bremen.Routers.Kitas extends Backbone.Router
   index: ->
     # log 'index'
 
-  show: (id) ->
+  show: (id, slug) ->
     kita = @kitas.get(id)
     if kita
       @showView.close() if @showView
@@ -33,7 +33,7 @@ class Bremen.Routers.Kitas extends Backbone.Router
       # referenzieren müssen.
       showOnStart = =>
         @kitas.unbind 'reset', showOnStart
-        @show id
+        @show id, slug
       @kitas.bind 'reset', showOnStart
 
   loadKitas: ->
@@ -49,7 +49,7 @@ class Bremen.Routers.Kitas extends Backbone.Router
         title: kita.get('name')
         icon: asset 'kita.png'
       marker.on 'click', =>
-        @navigate "/#{kita.id}", true
+        @navigate "#{kita.id}/#{kita.get('slug')}", true
       @map.addMarker marker
 
   setPosition: (lat, lng) =>

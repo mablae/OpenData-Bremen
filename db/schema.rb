@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111116103707) do
+ActiveRecord::Schema.define(:version => 20111203215120) do
 
   create_table "kitas", :force => true do |t|
     t.integer  "bremen_id"
@@ -27,10 +27,12 @@ ActiveRecord::Schema.define(:version => 20111116103707) do
     t.integer  "plaetze_6"
     t.float    "latitude"
     t.float    "longitude"
+    t.string   "slug"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   add_index "kitas", ["bremen_id"], :name => "index_kitas_on_bremen_id", :unique => true
+  add_index "kitas", ["slug"], :name => "index_kitas_on_slug", :unique => true
 
 end

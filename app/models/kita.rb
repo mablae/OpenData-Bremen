@@ -1,6 +1,6 @@
 class Kita < ActiveRecord::Base
-  validates_presence_of :name
-  validates_presence_of :adresse
+  extend FriendlyId
+  friendly_id :name, use: :slugged
 
   geocoded_by :geocodierbare_adresse do |obj, results|
     if geo = results.first
@@ -9,6 +9,9 @@ class Kita < ActiveRecord::Base
       obj.adresse_normalisiert = geo.address
     end
   end
+
+  validates_presence_of :name
+  validates_presence_of :adresse
 
   after_validation :geocodieren
 
