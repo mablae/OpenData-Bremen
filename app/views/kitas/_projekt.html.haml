@@ -1,28 +1,28 @@
 #kitas-projekt.modal.hide.fade.in
   %header.modal-header
-    %a.close(href="#")x
+    %a.close(href='#')x
     %h3 Das Projekt
   .modal-body
     %p
       = link_to Settings.kitas.host, Settings.kitas.url
       ist ein Projekt von
-      = link_to "Dennis Reimann", "http://dennisreimann.de"
+      = link_to 'Dennis Reimann', 'http://dennisreimann.de'
       das im Rahmen des Wettberwerbs
-      = link_to "Apps4Bremen", "http://www.daten.bremen.de/sixcms/detail.php?gsid=bremen02.c.732.de"
+      = link_to 'Apps4Bremen', 'http://www.daten.bremen.de/sixcms/detail.php?gsid=bremen02.c.732.de'
       entstanden ist. Die Datensätze der Einrichtungen zur
       Tagesbetreuung von Kindern stammen aus den
-      = link_to "offenen Daten Bremens", "http://daten.bremen.de"
+      = link_to 'offenen Daten Bremens', 'http://daten.bremen.de'
       und wurden teilweise durch persönliche Recherche
       (Websites der Kitas etc.) angereichert.
     %p
       Der
-      = link_to "Quelltext des Projekts", "https://github.com/dbloete/OpenData-Bremen"
+      = link_to 'Quelltext des Projekts', 'https://github.com/dbloete/OpenData-Bremen'
       ist auf Github verfügbar, so dass es gerne erweitert werden kann.
       Technische Basis dieser Anwendung sind Ruby on Rails und Backbone.js,
       sowie MySQL und die Google Maps API.
     %p
       Die Kartenmarker sind aus dem frei verfügbaren Markerset von
-      = link_to "Nicolas Mollet", "http://mapicons.nicolasmollet.com/"
+      = link_to 'Nicolas Mollet', 'http://mapicons.nicolasmollet.com/'
       entnommen.
     %h4 Kontakt
     %p
@@ -32,7 +32,7 @@
       %br
       28199 Bremen
     %p
-      = mail_to "mail@dennisreimann.de",  "mail@dennisreimann.de", subject: Settings.kitas.name
+      = mail_to 'mail@dennisreimann.de',  'mail@dennisreimann.de', subject: Settings.kitas.name
       %br
-      = link_to "http://dennisreimann.de"
+      = link_to 'http://dennisreimann.de', 'http://dennisreimann.de'
 
