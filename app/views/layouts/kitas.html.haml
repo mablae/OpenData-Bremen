@@ -1,7 +1,7 @@
 !!!
 %html#kitas.fullscreen-map
   %head
-    %title Kitas in Bremen
+    %title= kitas_title
     %meta(name="viewport" content="initial-scale=1.0, user-scalable=no")
     = stylesheet_link_tag 'application'
     = javascript_include_tag 'http://maps.google.com/maps/api/js?sensor=true&language=de'
@@ -9,4 +9,5 @@
     = csrf_meta_tag
     = yield :head
   %body#kitas-app
-  = render 'shared/analytics' if Settings.google_analytics_id
+    = yield
+    = render 'shared/analytics' if Settings.google_analytics_id

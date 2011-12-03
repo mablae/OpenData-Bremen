@@ -7,7 +7,6 @@ class Bremen.Routers.Kitas extends Backbone.Router
     @kitas = new Bremen.Collections.Kitas()
     @kitas.bind 'reset', @refreshMap
     @indexView = new Bremen.Views.KitasIndex(collection: @kitas)
-    $('#kitas-app').html(@indexView.render().el)
     @map = new Map 'kitas-map', zoom: 12
     @map.centerAt(Settings.default_latitude, Settings.default_longitude)
     # Benutzerposition

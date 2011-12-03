@@ -1,18 +1,3 @@
-.topbar
-  .topbar-inner
-    .container
-      %a.brand(href=Settings.kitas.url) Kitas in Bremen
-      #loading
-        %img(src="#{asset('loading.gif')}")
-      %ul.nav
-        %li
-          %a#filter-toggle(href="#") Filter
-      %ul.nav.secondary-nav
-        %li
-          %a(href=Settings.url) OpenData Bremen
-
-#kitas-map.map-container
-
 %form#kitas-filter.filter-form.form-stacked(url="/" method="get")
   .row
     .span5
@@ -21,7 +6,7 @@
           %strong Trägerart
         .input
           %ul.inputs-list
-            - for art in @traegerArten
+            - traeger_arten.each do |art|
               %li
                 %label
                   %input(name="traeger_art[]" type="checkbox" checked="checked" value="#{art}")

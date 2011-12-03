@@ -8,6 +8,7 @@ defaults: &defaults
   google_maps_api_key: ABQIAAAAcIz016TRYiMH1KvissP1SxS8LUmBBxjxoxaGUy-MjULCj7hntBRRt0mrQ4Gz3FCuoPVPBAz46R-ROQ
   google_analytics_id:
   kitas:
+    name: Kitas in Bremen
     host: kitas.dev
     url: http://kitas.dev:3000
 

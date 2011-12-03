@@ -1,26 +1,12 @@
 class Bremen.Views.KitasIndex extends Backbone.View
-  tagName: 'div'
-  id: 'kitas-index'
-  template: JST['kitas/index']
+  el: 'div#kitas-index'
 
   events:
     'click #filter-submit': 'filter'
     'click #filter-reset': 'reset'
     'click #filter-close': 'close'
     'click #filter-toggle': 'toggle'
-
-  render: =>
-    traegerArten = [
-      'öffentlicher Träger'
-      'kirchlicher Träger'
-      'freier Träger der Wohlfahrtspflege'
-      'gemeinütziger Verein'
-      'privat-gewerblicher Träger'
-      'Elternverein'
-      'gemeinnütziger Verein'
-    ]
-    $(@el).html @template(traegerArten: traegerArten)
-    this
+    'click .page': 'showPage'
 
   filter: (e) =>
     e.preventDefault()
@@ -34,6 +20,11 @@ class Bremen.Views.KitasIndex extends Backbone.View
   toggle: (e) =>
     e.preventDefault()
     @.$('form#kitas-filter').toggle()
+
+  showPage: (e) ->
+    e.preventDefault()
+    pageId = $(e.target).data('page-id')
+    $("##{pageId}").modal(backdrop: true, keyboard: true, show: true)
 
   reset: (e) =>
     e.preventDefault()
