@@ -53,10 +53,17 @@ class Bremen.Routers.Kitas extends Backbone.Router
       @map.addMarker marker
 
   setPosition: (lat, lng) =>
-    @map.centerAt lat, lng
-    @map.setZoomLevel 15
-    @positionMarker.setMap null if @positionMarker
-    @positionMarker = @map.markerForObject { latitude: lat, longitude: lng },
-      title: 'Ihre aktuelle Position'
-      icon: asset('position.png')
-    @positionMarker.setMap @map.googleMap
+    # Überprüfen ob die Position innerhalb Bremens liegt
+    box = Settings.bounding_box
+    latIn = lat >= box.sw_lat and lat <= box.ne_lat
+    lngIn = lng >= box.sw_lng and lng <= box.ne_lng
+    if latIn and lngIn
+      @map.centerAt lat, lng
+      @map.setZoomLevel 15
+      @positionMarker.setMap null if @positionMarker
+      @positionMarker = @map.markerForObject { latitude: lat, longitude: lng },
+        title: 'Ihre aktuelle Position'
+        icon: asset 'position.png'
+      @positionMarker.setMap @map.googleMap
+    else
+      alert 'Die Adresse liegt nicht innerhalb Bremens.'
