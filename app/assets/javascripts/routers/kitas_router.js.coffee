@@ -12,15 +12,7 @@ class Bremen.Routers.Kitas extends Backbone.Router
     # Benutzerposition
     if navigator.geolocation
       navigator.geolocation.getCurrentPosition (position) =>
-        if position.coords?
-          lat = position.coords.latitude
-          lng = position.coords.longitude
-          @map.centerAt lat, lng
-          @map.setZoomLevel 15
-          marker = @map.markerForObject { latitude: lat, longitude: lng },
-            title: 'Ihre aktuelle Position'
-            icon: asset('position.png')
-          marker.setMap @map.googleMap
+        @setPosition(position.coords.latitude, position.coords.longitude) if position.coords?
     # Kitas laden
     @loadKitas()
 
@@ -59,3 +51,12 @@ class Bremen.Routers.Kitas extends Backbone.Router
       marker.on 'click', =>
         @navigate("/#{kita.id}", true)
       @map.addMarker marker
+
+  setPosition: (lat, lng) =>
+    @map.centerAt lat, lng
+    @map.setZoomLevel 15
+    @positionMarker.setMap null if @positionMarker
+    @positionMarker = @map.markerForObject { latitude: lat, longitude: lng },
+      title: 'Ihre aktuelle Position'
+      icon: asset('position.png')
+    @positionMarker.setMap @map.googleMap

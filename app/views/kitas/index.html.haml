@@ -3,13 +3,14 @@
     .topbar-inner
       .container
         = link_to Settings.kitas.name, Settings.kitas.url, class: 'brand'
-        #loading
-          = image_tag('loading.gif')
+        #loading= image_tag('loading.gif')
         %ul.nav
           %li= link_to 'Filter', '#', id: 'filter-toggle'
+        %form#search.pull-left
+          %input(id='adresse' type='text' placeholder='Adresse')
+        %ul.nav.secondary-nav
           %li= link_to 'Links', '#', class: 'page', data: {'page-id' => 'kitas-links'}
           %li= link_to 'Das Projekt', '#', class: 'page', data: {'page-id' => 'kitas-projekt'}
-        %ul.nav.secondary-nav
           %li= link_to Settings.app_name, Settings.url
   #kitas-map.map-container
   = render 'filter'
