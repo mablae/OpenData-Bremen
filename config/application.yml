@@ -1,11 +1,15 @@
 defaults: &defaults
   app_name: 'OpenData Bremen'
   host: bremen.dev
+  url: http://bremen.dev:3000
   js_logging: false
   default_latitude: 53.07498
   default_longitude: 8.8072
   google_maps_api_key: ABQIAAAAcIz016TRYiMH1KvissP1SxS8LUmBBxjxoxaGUy-MjULCj7hntBRRt0mrQ4Gz3FCuoPVPBAz46R-ROQ
   google_analytics_id:
+  kitas:
+    host: kitas.dev
+    url: http://kitas.dev:3000
 
 development:
   <<: *defaults
@@ -16,4 +20,9 @@ test:
 
 production:
   <<: *defaults
+  host: bremen.innovated.de
+  url: http://bremen.innovated.de
   google_analytics_id: UA-376258-23
+  kitas:
+    host: kitas-in-bremen.de
+    url: http://kitas-in-bremen.de

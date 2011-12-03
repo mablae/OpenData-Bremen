@@ -1,7 +1,7 @@
 .topbar
   .topbar-inner
     .container
-      %a.brand(href="/kitas") Kitas in Bremen
+      %a.brand(href=Settings.kitas.url) Kitas in Bremen
       #loading
         %img(src="#{asset('loading.gif')}")
       %ul.nav
@@ -9,11 +9,11 @@
           %a#filter-toggle(href="#") Filter
       %ul.nav.secondary-nav
         %li
-          %a(href="/") OpenData Bremen
+          %a(href=Settings.url) OpenData Bremen
 
 #kitas-map.map-container
 
-%form#kitas-filter.filter-form.form-stacked(url="/kitas" method="get")
+%form#kitas-filter.filter-form.form-stacked(url="/" method="get")
   .row
     .span5
       .clearfix
