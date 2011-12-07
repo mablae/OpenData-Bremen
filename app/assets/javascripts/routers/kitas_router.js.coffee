@@ -47,7 +47,7 @@ class Bremen.Routers.Kitas extends Backbone.Router
     @kitas.each (kita) =>
       marker = @map.markerForObject { latitude: kita.get('latitude'), longitude: kita.get('longitude')},
         title: kita.get('name')
-        icon: asset 'kita.png'
+        icon: image_path 'kita.png'
       marker.on 'click', =>
         @navigate "#{kita.id}/#{kita.get('slug')}", true
       @map.addMarker marker
@@ -63,7 +63,7 @@ class Bremen.Routers.Kitas extends Backbone.Router
       @positionMarker.setMap null if @positionMarker
       @positionMarker = @map.markerForObject { latitude: lat, longitude: lng },
         title: 'Ihre aktuelle Position'
-        icon: asset 'position.png'
+        icon: image_path 'position.png'
       @positionMarker.setMap @map.googleMap
     else
       alert 'Die Adresse liegt nicht innerhalb Bremens.'
