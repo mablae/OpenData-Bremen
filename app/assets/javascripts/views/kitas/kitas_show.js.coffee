@@ -20,5 +20,5 @@ class Bremen.Views.KitasShow extends Backbone.View
     $(@el).modal 'hide'
 
   hidden: =>
-    window.kitasApp.navigate ''
+    window.kitasApp.navigate '', true
     @remove()

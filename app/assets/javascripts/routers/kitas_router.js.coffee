@@ -17,7 +17,7 @@ class Bremen.Routers.Kitas extends Backbone.Router
     @loadKitas()
 
   index: ->
-    # log 'index'
+    @updateTitle null
 
   show: (id, slug) ->
     kita = @kitas.get(id)
@@ -25,6 +25,7 @@ class Bremen.Routers.Kitas extends Backbone.Router
       @showView.close() if @showView
       @showView = new Bremen.Views.KitasShow model: kita
       $('#kitas-app').append @showView.render().el
+      @updateTitle kita.get('name')
     else
       # Funktion auf das reset binden, da die Collection noch nicht geladen
       # ist. Bei der Ausführung muss unbind ausgeführt werden, da sonst bei
@@ -67,3 +68,7 @@ class Bremen.Routers.Kitas extends Backbone.Router
       @positionMarker.setMap @map.googleMap
     else
       alert 'Die Adresse liegt nicht innerhalb Bremens.'
+
+  updateTitle: (title) =>
+    app_title = $('title').data('app-title')
+    document.title = if title? then "#{title} - #{app_title}" else app_title
