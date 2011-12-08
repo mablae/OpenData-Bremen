@@ -1,5 +1,5 @@
 array :kitas do
-  kitas.each do |k|
+  @kitas.each do |k|
     element :kita do
       id k.id
       name k.name
