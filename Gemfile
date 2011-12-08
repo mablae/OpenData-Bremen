@@ -65,3 +65,7 @@ group :test do
   gem 'fuubar-cucumber'
   gem 'spork', '> 0.9.0.rc'
 end
+
+group :production do
+  gem 'ramon'
+end
