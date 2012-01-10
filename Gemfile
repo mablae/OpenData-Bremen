@@ -2,7 +2,7 @@ source "http://rubygems.org"
 
 # Essentials
 gem 'rake', '~> 0.9.2'
-gem 'rails', '3.1.1'
+gem 'rails', '3.1.3'
 gem 'bcrypt-ruby'
 gem 'mysql2'
 gem 'simple_form'
@@ -37,6 +37,8 @@ end
 group :development do
   gem 'mongrel', '1.2.0.pre2'
   gem 'active_reload'
+  gem 'rails-dev-tweaks'
+  gem 'query_reviewer', :git => 'git://github.com/nesquena/query_reviewer.git'
   # Deployment
   gem 'vlad', :require => false
   gem 'vlad-git', :require => false
@@ -67,4 +69,5 @@ end
 
 group :production do
   gem 'ramon'
+  gem 'request-log-analyzer'
 end
